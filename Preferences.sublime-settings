@@ -1,0 +1,22 @@
+{
+  "always_show_minimap_viewport": true,
+  "bold_folder_labels": true,
+  "caret_extra_bottom": 3,
+  "caret_extra_top": 3,
+  "caret_extra_width": 2,
+  "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+  "theme": "Material-Theme.sublime-theme",
+  "font_size": 18,
+  "highlight_line": true,
+  "ignored_packages": [
+    "Vintage"
+  ],
+  "indent_guide_options": [
+    "draw_normal",
+    "draw_active"
+  ],
+  "line_padding_bottom": 3,
+  "line_padding_top": 3,
+  "overlay_scroll_bars": "enabled",
+  "word_wrap": true
+}
