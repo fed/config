@@ -17,6 +17,11 @@ alias apache:cd='cd /Library/WebServer/Documents'
 alias hidden:show='defaults write com.apple.finder AppleShowAllFiles YES && echo "Hold the Option/alt key, then right click on the Finder icon in the dock and click Relaunch."'
 alias hidden:hide='defaults write com.apple.finder AppleShowAllFiles NO && echo "Hold the Option/alt key, then right click on the Finder icon in the dock and click Relaunch."'
 
+# rename tabs on iTerm2
+function title {
+  echo -ne "\033]0;"$*"\007"
+}
+
 # git goodness
 source ~/.git-completion.bash
 source ~/.git-prompt.sh
