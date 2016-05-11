@@ -1,10 +1,16 @@
 # Developer's OS X Fresh Install
 
-## Dev Tools
+This document describes how I set up my development environment on a new MacBook or iMac. 
+
+## System preferences
+
+Apple icon > System Preferences:
+
+* Dock > Automatically hide and show the Dock
+
+## Dev tools
 
 * [iTerm2](https://www.iterm2.com/)
-* [Seti Theme for iTerm2](https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/schemes/Seti.itermcolors)
-* [Solarized Theme for iTerm2](https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized)
 * [Git](http://git-scm.com/)
 * [nvm](https://github.com/creationix/nvm)
 * [Sublime Text](https://www.sublimetext.com/)
@@ -14,7 +20,7 @@
 * [Postman](https://www.getpostman.com/)
 * [SourceTree](https://www.sourcetreeapp.com/)
 
-## Sublime Text Plugins & Settings
+## Sublime Text plugins
 
 Install the following Sublime packages via [Package Control](https://packagecontrol.io/):
 
@@ -32,34 +38,30 @@ Install the following Sublime packages via [Package Control](https://packagecont
 * [SublimeLinter-contrib-eslint](https://github.com/roadhump/SublimeLinter-eslint)
 * [SublimeLinter-contrib-scss-lint](https://github.com/attenzione/SublimeLinter-scss-lint)
 
-Also add the following to your Sublime user preferences:
-
-```
-{
-  "tab_size": 2,
-  "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": true
-}
-```
-
 ## Misc
 
 * [The Unarchiver](http://unarchiver.c3.cx/unarchiver)
 * [Spectacle](https://www.spectacleapp.com/)
 * [f.lux](https://justgetflux.com/)
 
-## Configuration Files
+## Configuration files
 
 See the `.bash_profile` and `.gitconfig` files attached to this Gist.
 
-## Git Scripts
+## Git scripts
 
 Place these scripts on your home (`~`) directory:
 
 * [See repository status in your prompt](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)
 * [Git completion support](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
 
-## Local Apache Server
+## Workspace
+
+```
+mkdir ~/workspace
+```
+
+## Built-in local Apache server
 
 To enable PHP edit this file:
 
