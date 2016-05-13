@@ -2,13 +2,13 @@
 
 This document describes how I set up my development environment on a new MacBook or iMac. 
 
-## System preferences
+## System Preferences
 
-Apple icon > System Preferences:
+**Apple icon > System Preferences:**
 
 * Dock > Automatically hide and show the Dock
 
-## Dev tools
+## Dev Tools
 
 * [iTerm2](https://www.iterm2.com/)
 * [Git](http://git-scm.com/)
@@ -18,9 +18,9 @@ Apple icon > System Preferences:
 * [CyberDuck](https://cyberduck.io/)
 * [Sequel Pro](http://www.sequelpro.com/)
 * [Postman](https://www.getpostman.com/)
-* [SourceTree](https://www.sourcetreeapp.com/)
+* [SourceTree](https://www.sourcetreeapp.com/) (cool for seeing `diff`s just like you do in BitBucket Server)
 
-## Sublime Text plugins
+## Sublime Text Plugins
 
 Install the following Sublime packages via [Package Control](https://packagecontrol.io/):
 
@@ -38,20 +38,18 @@ Install the following Sublime packages via [Package Control](https://packagecont
 * [SublimeLinter-contrib-eslint](https://github.com/roadhump/SublimeLinter-eslint)
 * [SublimeLinter-contrib-scss-lint](https://github.com/attenzione/SublimeLinter-scss-lint)
 
-## Misc
+## Misc Tools
 
 * [The Unarchiver](http://unarchiver.c3.cx/unarchiver)
 * [Spectacle](https://www.spectacleapp.com/)
 * [f.lux](https://justgetflux.com/)
 
-## Configuration files
-
-See the `.bash_profile` and `.gitconfig` files attached to this Gist.
-
-## Git scripts
+## Configuration Files and Git Scripts
 
 Place these scripts on your home (`~`) directory:
 
+* [`.bash_profile`](./.bash_profile)
+* [`.gitconfig`](./.gitconfig)
 * [See repository status in your prompt](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)
 * [Git completion support](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
 
@@ -61,7 +59,7 @@ Place these scripts on your home (`~`) directory:
 mkdir ~/workspace
 ```
 
-## Built-in local Apache server
+## Built-in Local Apache Server
 
 To enable PHP edit this file:
 
