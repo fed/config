@@ -35,13 +35,13 @@ Install the following Sublime packages via [Package Control](https://packagecont
 * [Git Gutter](https://github.com/jisaacks/GitGutter)
 * [Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter)
 * [SublimeLinter](http://www.sublimelinter.com/)
-* [SublimeLinter-contrib-eslint](https://github.com/roadhump/SublimeLinter-eslint)
-* [SublimeLinter-contrib-scss-lint](https://github.com/attenzione/SublimeLinter-scss-lint)
+* [SublimeLinter-contrib-eslint](https://github.com/roadhump/SublimeLinter-eslint) (dependency: `npm install -g eslint`)
+* [SublimeLinter-contrib-sass-lint](https://github.com/skovhus/SublimeLinter-contrib-sass-lint) (dependency: `npm install -g sass-lint`)
 
 ## Misc Tools
 
 * [The Unarchiver](http://unarchiver.c3.cx/unarchiver)
-* [Spectacle](https://www.spectacleapp.com/)
+* [Spectacle](https://www.spectacleapp.com/) (set it up to start on login)
 * [f.lux](https://justgetflux.com/)
 
 ## Configuration Files and Git Scripts
