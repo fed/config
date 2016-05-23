@@ -18,13 +18,13 @@ This document describes how I set up my development environment on a new MacBook
 * [CyberDuck](https://cyberduck.io/)
 * [Sequel Pro](http://www.sequelpro.com/)
 * [Postman](https://www.getpostman.com/)
-* [SourceTree](https://www.sourcetreeapp.com/) (cool for seeing `diff`s just like you do in BitBucket Server)
+* [SourceTree](https://www.sourcetreeapp.com/) (useful for going through `diff`'s just like you do in BitBucket)
 
 ## Sublime Text Plugins
 
 Install the following Sublime packages via [Package Control](https://packagecontrol.io/):
 
-* [Material Theme](https://github.com/equinusocio/material-theme)
+* [Cobalt2](https://github.com/wesbos/cobalt2) or [Material Theme](https://github.com/equinusocio/material-theme)
 * [EditorConfig](http://editorconfig.org/)
 * [Babel](https://github.com/babel/babel-sublime) (ES6 and JSX syntax highlighting)
 * [SCSS](https://github.com/MarioRicalde/SCSS.tmbundle) (SCSS syntax highlighting)
