@@ -19,6 +19,8 @@ This document describes how I set up my development environment on a new MacBook
 * [Sequel Pro](http://www.sequelpro.com/)
 * [Postman](https://www.getpostman.com/)
 * [SourceTree](https://www.sourcetreeapp.com/) (useful for going through `diff`'s just like you do in BitBucket)
+* [Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/)
+* [Android Studio](https://developer.android.com/studio/) (let AS get you an appropriate version of the Android SDK)
 
 ## Sublime Text Plugins
 
