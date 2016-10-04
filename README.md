@@ -1,4 +1,4 @@
-# Developer's OS X Fresh Install
+# Developer's macOS Fresh Install
 
 This document describes how I set up my development environment on a new MacBook or iMac. 
 
@@ -7,6 +7,18 @@ This document describes how I set up my development environment on a new MacBook
 **Apple icon > System Preferences:**
 
 * Dock > Automatically hide and show the Dock
+
+## Host Name
+
+```
+sudo hostname <new-host-name>
+```
+
+## Workspace
+
+```
+mkdir ~/workspace
+```
 
 ## Dev Tools
 
@@ -18,9 +30,7 @@ This document describes how I set up my development environment on a new MacBook
 * [CyberDuck](https://cyberduck.io/)
 * [Sequel Pro](http://www.sequelpro.com/)
 * [Postman](https://www.getpostman.com/)
-* [SourceTree](https://www.sourcetreeapp.com/) (useful for going through `diff`'s just like you do in BitBucket)
-* [Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/)
-* [Android Studio](https://developer.android.com/studio/) (let AS get you an appropriate version of the Android SDK)
+* [GitUp](http://gitup.co/) (useful for going through `diff`'s just like you do in GitHub/BitBucket)
 
 ## Sublime Text Plugins
 
@@ -31,7 +41,6 @@ Install the following Sublime packages via [Package Control](https://packagecont
 * [Babel](https://github.com/babel/babel-sublime) (ES6 and JSX syntax highlighting)
 * [SCSS](https://github.com/MarioRicalde/SCSS.tmbundle) (SCSS syntax highlighting)
 * [HTML Mustache](https://github.com/adamchainz/SublimeHTMLMustache) (Mustache syntax highlighting)
-* [Alignment](https://github.com/wbond/sublime_alignment)
 * [DocBlockr](https://github.com/spadgos/sublime-jsdocs)
 * [Pretty JSON](https://github.com/dzhibas/SublimePrettyJson)
 * [Git Gutter](https://github.com/jisaacks/GitGutter)
@@ -39,12 +48,6 @@ Install the following Sublime packages via [Package Control](https://packagecont
 * [SublimeLinter](http://www.sublimelinter.com/)
 * [SublimeLinter-contrib-eslint](https://github.com/roadhump/SublimeLinter-eslint) (dependency: `npm install -g eslint`)
 * [SublimeLinter-contrib-sass-lint](https://github.com/skovhus/SublimeLinter-contrib-sass-lint) (dependency: `npm install -g sass-lint`)
-
-## Misc Tools
-
-* [The Unarchiver](http://unarchiver.c3.cx/unarchiver)
-* [Spectacle](https://www.spectacleapp.com/) (set it up to start on login)
-* [f.lux](https://justgetflux.com/)
 
 ## Configuration Files and Git Scripts
 
@@ -55,13 +58,20 @@ Place these scripts on your home (`~`) directory:
 * [See repository status in your prompt](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)
 * [Git completion support](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
 
-## Workspace
+## Misc Tools
 
-```
-mkdir ~/workspace
-```
+* [The Unarchiver](http://unarchiver.c3.cx/unarchiver)
+* [Spectacle](https://www.spectacleapp.com/) (set it up to start on login)
+* [f.lux](https://justgetflux.com/)
 
-## Built-in Local Apache Server
+## Optionals
+
+### Android Development
+
+* [Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/)
+* [Android Studio](https://developer.android.com/studio/) (let AS get you an appropriate version of the Android SDK)
+
+### Built-in Local Apache Server
 
 To enable PHP edit this file:
 
