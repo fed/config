@@ -11,7 +11,7 @@ This document describes how I set up my development environment on a new MacBook
 ## Host Name
 
 ```
-sudo hostname <new-host-name>
+sudo hostname -s <new-host-name>
 ```
 
 ## Workspace
