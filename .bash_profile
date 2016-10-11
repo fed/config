@@ -2,11 +2,13 @@
 export NVM_DIR="/Users/fknussel/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
+# android sdk
+export ANDROID_HOME="/Users/fknussel/Library/Android/sdk"
+
 # aliases
 alias ll='ls -lhFa'
 alias ws='cd ~/workspace'
 alias sublime='open -a "Sublime Text"'
-alias sourcetree='open -a Sourcetree'
 alias awake='pmset noidle'
 
 alias apache:start='sudo apachectl start && echo "server started"'

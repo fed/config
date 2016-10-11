@@ -11,7 +11,7 @@ This document describes how I set up my development environment on a new MacBook
 ## Host Name
 
 ```
-sudo hostname -s <new-host-name>
+sudo scutil --set HostName <new-host-name>
 ```
 
 ## Workspace
@@ -20,19 +20,23 @@ sudo hostname -s <new-host-name>
 mkdir ~/workspace
 ```
 
-## Dev Tools
+## General Dev Tools
 
 * [iTerm2](https://www.iterm2.com/)
 * [Git](http://git-scm.com/)
-* [nvm](https://github.com/creationix/nvm)
-* [Sublime Text](https://www.sublimetext.com/)
 * [VirtualBox](https://www.virtualbox.org/)
 * [CyberDuck](https://cyberduck.io/)
 * [Sequel Pro](http://www.sequelpro.com/)
 * [Postman](https://www.getpostman.com/)
 * [GitUp](http://gitup.co/) (useful for going through `diff`'s just like you do in GitHub/BitBucket)
+* [Charles Proxy](https://www.charlesproxy.com/)
 
-## Sublime Text Plugins
+## Front End Dev Tools
+
+* [nvm](https://github.com/creationix/nvm)
+* [Sublime Text](https://www.sublimetext.com/)
+
+### Sublime Text Plugins
 
 Install the following Sublime packages via [Package Control](https://packagecontrol.io/):
 
@@ -40,14 +44,16 @@ Install the following Sublime packages via [Package Control](https://packagecont
 * [EditorConfig](http://editorconfig.org/)
 * [Babel](https://github.com/babel/babel-sublime) (ES6 and JSX syntax highlighting)
 * [SCSS](https://github.com/MarioRicalde/SCSS.tmbundle) (SCSS syntax highlighting)
-* [HTML Mustache](https://github.com/adamchainz/SublimeHTMLMustache) (Mustache syntax highlighting)
 * [DocBlockr](https://github.com/spadgos/sublime-jsdocs)
 * [Pretty JSON](https://github.com/dzhibas/SublimePrettyJson)
-* [Git Gutter](https://github.com/jisaacks/GitGutter)
-* [Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter)
 * [SublimeLinter](http://www.sublimelinter.com/)
 * [SublimeLinter-contrib-eslint](https://github.com/roadhump/SublimeLinter-eslint) (dependency: `npm install -g eslint`)
 * [SublimeLinter-contrib-sass-lint](https://github.com/skovhus/SublimeLinter-contrib-sass-lint) (dependency: `npm install -g sass-lint`)
+
+## Android Dev Tools
+
+* [Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/)
+* [Android Studio](https://developer.android.com/studio/) (let AS get you an appropriate version of the Android SDK)
 
 ## Configuration Files and Git Scripts
 
@@ -64,14 +70,7 @@ Place these scripts on your home (`~`) directory:
 * [Spectacle](https://www.spectacleapp.com/) (set it up to start on login)
 * [f.lux](https://justgetflux.com/)
 
-## Optionals
-
-### Android Development
-
-* [Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/)
-* [Android Studio](https://developer.android.com/studio/) (let AS get you an appropriate version of the Android SDK)
-
-### Built-in Local Apache Server
+## Built-in Local Apache Server
 
 To enable PHP edit this file:
 

@@ -7,4 +7,5 @@
 .settings
 *.sublime-project
 *.sublime-workspace
+.vscode
 Thumbs.db
