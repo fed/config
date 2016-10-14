@@ -2,6 +2,9 @@
 export NVM_DIR="/Users/fknussel/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
+# yarn
+export PATH="$HOME/.yarn/bin:$PATH"
+
 # android sdk
 export ANDROID_HOME="/Users/fknussel/Library/Android/sdk"
 
