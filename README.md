@@ -28,7 +28,7 @@ mkdir ~/workspace
 * [CyberDuck](https://cyberduck.io/)
 * [Sequel Pro](http://www.sequelpro.com/)
 * [Postman](https://www.getpostman.com/)
-* [GitUp](http://gitup.co/) (useful for going through `diff`'s just like you do in GitHub/BitBucket)
+* [GitUp](http://gitup.co/) (useful for going through `diff`'s)
 * [Charles Proxy](https://www.charlesproxy.com/)
 
 ## Front End Dev Tools
@@ -67,7 +67,7 @@ Place these scripts on your home (`~`) directory:
 ## Misc Tools
 
 * [The Unarchiver](http://unarchiver.c3.cx/unarchiver)
-* [Spectacle](https://www.spectacleapp.com/) (set it up to start on login)
+* [Magnet](http://magnet.crowdcafe.com/)
 * [f.lux](https://justgetflux.com/)
 
 ## Built-in Local Apache Server
