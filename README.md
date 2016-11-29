@@ -6,6 +6,7 @@ This document describes how I set up my development environment on a new MacBook
 
 **Apple icon > System Preferences:**
 
+* General > Use dark menu bar and dock
 * Dock > Automatically hide and show the Dock
 
 ## Host Name
@@ -65,8 +66,8 @@ Place these scripts on your home (`~`) directory:
 
 * [`.bash_profile`](./.bash_profile)
 * [`.gitconfig`](./.gitconfig)
-* [See repository status in your prompt](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)
-* [Git completion support](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
+* [`git-prompt.sh`](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh) (see repository status in your prompt)
+* [`git-completion.bash`](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash) (Git completion support)
 
 ## Misc Tools
 
@@ -75,26 +76,3 @@ Place these scripts on your home (`~`) directory:
 * [Magnet](http://magnet.crowdcafe.com/)
 * [f.lux](https://justgetflux.com/)
 * [Quickly](https://philmarell.com/quickly/)
-
-## Built-in Local Apache Server
-
-To enable PHP edit this file:
-
-```
-sudo vim /etc/apache2/httpd.conf
-```
-
-and uncomment this line:
-
-```
-LoadModule php5_module libexec/apache2/libphp5.so
-```
-
-Grant writing privileges:
-
-```
-sudo chown -R fknussel: /Library/WebServer/Documents
-sudo chmod -R a+wx /Library/WebServer/Documents
-```
-
-Restart Apache.
