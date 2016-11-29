@@ -55,6 +55,10 @@ Install the following Sublime packages via [Package Control](https://packagecont
 * [Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/)
 * [Android Studio](https://developer.android.com/studio/) (let AS get you an appropriate version of the Android SDK)
 
+## Haskell Dev Tools
+
+* [Haskell for Mac](http://haskellformac.com/)
+
 ## Configuration Files and Git Scripts
 
 Place these scripts on your home (`~`) directory:
@@ -66,9 +70,11 @@ Place these scripts on your home (`~`) directory:
 
 ## Misc Tools
 
+* [iA Writer](https://ia.net/writer)
 * [The Unarchiver](http://unarchiver.c3.cx/unarchiver)
 * [Magnet](http://magnet.crowdcafe.com/)
 * [f.lux](https://justgetflux.com/)
+* [Quickly](https://philmarell.com/quickly/)
 
 ## Built-in Local Apache Server
 
