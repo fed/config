@@ -14,14 +14,6 @@ alias ws='cd ~/workspace'
 alias sublime='open -a "Sublime Text"'
 alias awake='pmset noidle'
 
-alias apache:start='sudo apachectl start && echo "server started"'
-alias apache:stop='sudo apachectl stop && echo "server stopped"'
-alias apache:restart='sudo apachectl restart && echo "server restarted"'
-alias apache:cd='cd /Library/WebServer/Documents'
-
-alias hidden:show='defaults write com.apple.finder AppleShowAllFiles YES && echo "Hold the Option/alt key, then right click on the Finder icon in the dock and click Relaunch."'
-alias hidden:hide='defaults write com.apple.finder AppleShowAllFiles NO && echo "Hold the Option/alt key, then right click on the Finder icon in the dock and click Relaunch."'
-
 # rename tabs on iTerm2
 function title {
   echo -ne "\033]0;"$*"\007"
