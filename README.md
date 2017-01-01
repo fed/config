@@ -1,15 +1,13 @@
 # Developer's macOS Fresh Install
 
-This document describes how I set up my development environment on a new MacBook or iMac. 
+This document describes how I set up my development environment on a brand new MacBook or iMac 🖥
 
 ## System Preferences
-
-**Apple icon > System Preferences:**
 
 * General > Use dark menu bar and dock
 * Dock > Automatically hide and show the Dock
 
-## Host Name
+## Hostname
 
 ```
 sudo scutil --set HostName <new-host-name>
@@ -21,23 +19,66 @@ sudo scutil --set HostName <new-host-name>
 mkdir ~/workspace
 ```
 
-## General Dev Tools
+## Dev Tools
 
+Must have:
+
+* [Chrome](https://www.google.com/chrome/)
 * [iTerm2](https://www.iterm2.com/)
 * [Git](http://git-scm.com/)
-* [VirtualBox](https://www.virtualbox.org/)
+* [GitUp](http://gitup.co/) (useful for going through `diff`'s)
+* [nvm](https://github.com/creationix/nvm)
+* [Yarn](https://yarnpkg.com/) (install using `curl`)
+
+Some other apps I eventually need:
+
+* [Charles Proxy](https://www.charlesproxy.com/)
+* [Postman](https://www.getpostman.com/)
 * [CyberDuck](https://cyberduck.io/)
 * [Sequel Pro](http://www.sequelpro.com/)
-* [Postman](https://www.getpostman.com/)
-* [GitUp](http://gitup.co/) (useful for going through `diff`'s)
-* [Charles Proxy](https://www.charlesproxy.com/)
 
-## Front End Dev Tools
+### Visual Studio Code
 
-* [nvm](https://github.com/creationix/nvm)
+* [Visual Studio Code](https://code.visualstudio.com/)
+
+Useful extensions:
+
+* [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+* [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
+* [Flow Language Support](https://marketplace.visualstudio.com/items?itemName=flowtype.flow-for-vscode)
+* [stylelint](https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint)
+* [Document This (jsdoc)](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)
+* [Svg Preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.svgpreview)
+
+## Haskell
+
+* [Haskell for Mac](http://haskellformac.com/)
+
+## Config Files and Git Scripts
+
+Place these scripts on your home (`~`) directory:
+
+* [`.bash_profile`](./.bash_profile)
+* [`.gitconfig`](./.gitconfig)
+* [`git-prompt.sh`](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh) (see repository status in your prompt)
+* [`git-completion.bash`](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash) (Git completion support)
+
+## Misc Tools
+
+* [iA Writer](https://ia.net/writer)
+* [Magnet](http://magnet.crowdcafe.com/)
+* [f.lux](https://justgetflux.com/)
+* [The Unarchiver](http://unarchiver.c3.cx/unarchiver)
+* [Quickly](https://philmarell.com/quickly/)
+
+---
+
+## Tools I no longer use
+
+### Sublime Text
+
 * [Sublime Text](https://www.sublimetext.com/)
-
-### Sublime Text Plugins
 
 Install the following Sublime packages via [Package Control](https://packagecontrol.io/):
 
@@ -50,29 +91,3 @@ Install the following Sublime packages via [Package Control](https://packagecont
 * [SublimeLinter](http://www.sublimelinter.com/)
 * [SublimeLinter-contrib-eslint](https://github.com/roadhump/SublimeLinter-eslint) (dependency: `npm install -g eslint`)
 * [SublimeLinter-contrib-sass-lint](https://github.com/skovhus/SublimeLinter-contrib-sass-lint) (dependency: `npm install -g sass-lint`)
-
-## Android Dev Tools
-
-* [Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/)
-* [Android Studio](https://developer.android.com/studio/) (let AS get you an appropriate version of the Android SDK)
-
-## Haskell Dev Tools
-
-* [Haskell for Mac](http://haskellformac.com/)
-
-## Configuration Files and Git Scripts
-
-Place these scripts on your home (`~`) directory:
-
-* [`.bash_profile`](./.bash_profile)
-* [`.gitconfig`](./.gitconfig)
-* [`git-prompt.sh`](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh) (see repository status in your prompt)
-* [`git-completion.bash`](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash) (Git completion support)
-
-## Misc Tools
-
-* [iA Writer](https://ia.net/writer)
-* [The Unarchiver](http://unarchiver.c3.cx/unarchiver)
-* [Magnet](http://magnet.crowdcafe.com/)
-* [f.lux](https://justgetflux.com/)
-* [Quickly](https://philmarell.com/quickly/)
