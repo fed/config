@@ -37,7 +37,7 @@ Some other apps I eventually need:
 * [CyberDuck](https://cyberduck.io/)
 * [Sequel Pro](http://www.sequelpro.com/)
 
-### Visual Studio Code
+## Visual Studio Code
 
 * [Visual Studio Code](https://code.visualstudio.com/)
 
