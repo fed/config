@@ -19,13 +19,19 @@ sudo scutil --set HostName <new-host-name>
 mkdir ~/workspace
 ```
 
+## Command Line Tools
+
+```
+xcode-select --install
+```
+
 ## Dev Tools
 
 Must have:
 
 * [Chrome](https://www.google.com/chrome/)
 * [iTerm2](https://www.iterm2.com/)
-* [Git](http://git-scm.com/)
+* [Git](http://git-scm.com/) (shipped with command line tools)
 * [GitUp](http://gitup.co/) (useful for going through `diff`'s)
 * [nvm](https://github.com/creationix/nvm)
 * [Yarn](https://yarnpkg.com/) (install using `curl`)
