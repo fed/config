@@ -57,6 +57,11 @@ Useful extensions:
 * [Document This (jsdoc)](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)
 * [Svg Preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.svgpreview)
 
+## Elm
+
+* [Binaries for the Elm programming language](https://www.npmjs.com/package/elm)
+* [elm-vim](https://github.com/ElmCast/elm-vim)
+
 ## Haskell
 
 * [Haskell for Mac](http://haskellformac.com/)
