@@ -81,7 +81,6 @@ Place these scripts on your home (`~`) directory:
 * [Magnet](http://magnet.crowdcafe.com/)
 * [f.lux](https://justgetflux.com/)
 * [The Unarchiver](http://unarchiver.c3.cx/unarchiver)
-* [Quickly](https://philmarell.com/quickly/)
 
 ---
 
