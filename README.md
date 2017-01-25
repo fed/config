@@ -82,6 +82,29 @@ Place these scripts on your home (`~`) directory:
 * [f.lux](https://justgetflux.com/)
 * [The Unarchiver](http://unarchiver.c3.cx/unarchiver)
 
+## Built-in Local Apache Server		
+
+To enable PHP edit this file:
+
+```
+sudo vim /etc/apache2/httpd.conf
+```
+
+and uncomment this line:
+
+```
+LoadModule php5_module libexec/apache2/libphp5.so
+```
+
+Grant writing privileges:
+
+```
+sudo chown -R fknussel: /Library/WebServer/Documents
+sudo chmod -R a+wx /Library/WebServer/Documents
+```
+
+Restart Apache.
+
 ---
 
 ## Tools I no longer use
