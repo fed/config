@@ -124,3 +124,9 @@ Install the following Sublime packages via [Package Control](https://packagecont
 * [SublimeLinter](http://www.sublimelinter.com/)
 * [SublimeLinter-contrib-eslint](https://github.com/roadhump/SublimeLinter-eslint) (dependency: `npm install -g eslint`)
 * [SublimeLinter-contrib-sass-lint](https://github.com/skovhus/SublimeLinter-contrib-sass-lint) (dependency: `npm install -g sass-lint`)
+
+Set up JavaScript build system powered by Node.js:
+
+**Tools > Build System > New Build System**, save the file as `JavaScript.sublime-build` within the User directory inside the Sublime Text settings folder.
+
+To execute the Node interpreter, files need to be saved. Run using `Cmd + B`.
