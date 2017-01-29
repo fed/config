@@ -1,17 +1,30 @@
 # load nvm
-export NVM_DIR="/Users/fknussel/.nvm"
+export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
 # yarn
 export PATH="$HOME/.yarn/bin:$PATH"
 
-# android sdk
-export ANDROID_HOME="/Users/fknussel/Library/Android/sdk"
+# android
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+export PATH=${PATH}:${ANDROID_HOME}/tools
+export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+
+# apache
+alias apache:start='sudo apachectl start && echo "server started"'
+alias apache:stop='sudo apachectl stop && echo "server stopped"'
+alias apache:restart='sudo apachectl restart && echo "server restarted"'
+alias apache:cd='cd /Library/WebServer/Documents'
+
+# display hidden files
+alias hidden:show='defaults write com.apple.finder AppleShowAllFiles YES && echo "Hold the Option/alt key, then right click on the Finder icon in the dock and click Relaunch."'
+alias hidden:hide='defaults write com.apple.finder AppleShowAllFiles NO && echo "Hold the Option/alt key, then right click on the Finder icon in the dock and click Relaunch."'
 
 # aliases
 alias ll='ls -lhFa'
 alias ws='cd ~/workspace'
 alias sublime='open -a "Sublime Text"'
+alias vscode='open -a "Visual Studio Code"'
 alias awake='pmset noidle'
 
 # rename tabs on iTerm2
