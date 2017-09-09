@@ -50,7 +50,6 @@ Install the following packages:
 * [Nuclide](https://nuclide.io/docs/editor/setup/#macos__installation)
 * [Nuclide's recommended packages](https://nuclide.io/docs/editor/setup/#post-installation__recommended-packages)
 * [editorconfig](https://atom.io/packages/editorconfig)
-* [linter-eslint](https://atom.io/packages/linter-eslint) 
 
 Also install these npm packages globally:
 
