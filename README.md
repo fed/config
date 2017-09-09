@@ -43,22 +43,27 @@ Some other apps I eventually need:
 * [CyberDuck](https://cyberduck.io/)
 * [Sequel Pro](http://www.sequelpro.com/)
 
-## [Visual Studio Code](https://code.visualstudio.com/)
+## JavaScript
 
-Useful extensions:
+Install these packages globally:
 
-* [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
-* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-* [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
-* [Flow Language Support](https://marketplace.visualstudio.com/items?itemName=flowtype.flow-for-vscode)
-* [stylelint](https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint)
-* [Document This (jsdoc)](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)
-* [Svg Preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.svgpreview)
+```
+npm install -g eslint flow-bin
+```
+
+IDEs:
+
+1. [Visual Studio Code](https://code.visualstudio.com/)
+   * [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+   * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+2. [Atom](http://atom.io/)
+   * [Nuclide](https://nuclide.io/docs/editor/setup/#macos__installation)
+   * Install the [recommended packages](https://nuclide.io/docs/editor/setup/#post-installation__recommended-packages)
 
 ## Elm
 
-* [Binaries for the Elm programming language](https://www.npmjs.com/package/elm)
-* [elm-vim](https://github.com/ElmCast/elm-vim)
+* [Elm Platform](https://guide.elm-lang.org/install.html)
 
 ## Haskell
 
@@ -76,10 +81,10 @@ Place these scripts on your home (`~`) directory:
 
 ## Misc Tools
 
+* [The Unarchiver](http://unarchiver.c3.cx/unarchiver)
 * [iA Writer](https://ia.net/writer)
 * [Magnet](http://magnet.crowdcafe.com/)
 * [f.lux](https://justgetflux.com/)
-* [The Unarchiver](http://unarchiver.c3.cx/unarchiver)
 
 ---
 
