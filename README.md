@@ -43,31 +43,32 @@ Some other apps I eventually need:
 * [CyberDuck](https://cyberduck.io/)
 * [Sequel Pro](http://www.sequelpro.com/)
 
-## JavaScript
+## [Atom](http://atom.io/)
 
-Install these packages globally:
+Install the following packages:
+
+* [Nuclide](https://nuclide.io/docs/editor/setup/#macos__installation)
+* [Nuclide's recommended packages](https://nuclide.io/docs/editor/setup/#post-installation__recommended-packages)
+* [editorconfig](https://atom.io/packages/editorconfig)
+* [linter-eslint](https://atom.io/packages/linter-eslint) 
+
+Also install these npm packages globally:
 
 ```
 npm install -g eslint flow-bin
 ```
 
-IDEs:
-
-1. [Visual Studio Code](https://code.visualstudio.com/)
-   * [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
-   * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-
-2. [Atom](http://atom.io/)
-   * [Nuclide](https://nuclide.io/docs/editor/setup/#macos__installation)
-   * Install the [recommended packages](https://nuclide.io/docs/editor/setup/#post-installation__recommended-packages)
-
-## Elm
+## Functional Programming
 
 * [Elm Platform](https://guide.elm-lang.org/install.html)
-
-## Haskell
-
 * [Haskell for Mac](http://haskellformac.com/)
+
+## Misc Tools
+
+* [The Unarchiver](http://unarchiver.c3.cx/unarchiver)
+* [iA Writer](https://ia.net/writer)
+* [Magnet](http://magnet.crowdcafe.com/)
+* [f.lux](https://justgetflux.com/)
 
 ## Config Files and Git Scripts
 
@@ -79,16 +80,16 @@ Place these scripts on your home (`~`) directory:
 * [`git-prompt.sh`](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh) (see repository status in your prompt)
 * [`git-completion.bash`](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash) (Git completion support)
 
-## Misc Tools
-
-* [The Unarchiver](http://unarchiver.c3.cx/unarchiver)
-* [iA Writer](https://ia.net/writer)
-* [Magnet](http://magnet.crowdcafe.com/)
-* [f.lux](https://justgetflux.com/)
-
 ---
 
 ## Tools I no longer use
+
+### [Visual Studio Code](https://code.visualstudio.com/)
+
+Install the following extensions:
+
+* [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
 ### [Sublime Text](https://www.sublimetext.com/)
 
