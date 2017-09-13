@@ -96,6 +96,7 @@ Install the following Sublime packages via [**Package Control**](https://package
 
 * [Cobalt2](https://github.com/wesbos/cobalt2)
 * [EditorConfig](http://editorconfig.org/)
+* [TerminalView](https://github.com/Wramberg/TerminalView) (display the terminal window within ST3)
 * [Babel](https://github.com/babel/babel-sublime) (ES6 and JSX syntax highlighting)
 * [SCSS](https://github.com/MarioRicalde/SCSS.tmbundle) (SCSS syntax highlighting)
 * [DocBlockr](https://github.com/spadgos/sublime-jsdocs)
