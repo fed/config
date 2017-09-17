@@ -30,7 +30,7 @@ xcode-select --install
 Must have:
 
 * [Chrome](https://www.google.com/chrome/)
-* [iTerm2](https://www.iterm2.com/)
+* [Hyper](https://hyper.is/)
 * [Git](http://git-scm.com/) (shipped with the command line tools)
 * [GitUp](http://gitup.co/) (useful for going through `diff`'s)
 * [nvm](https://github.com/creationix/nvm)
@@ -42,6 +42,7 @@ Some other apps I eventually need:
 * [Postman](https://www.getpostman.com/)
 * [CyberDuck](https://cyberduck.io/)
 * [Sequel Pro](http://www.sequelpro.com/)
+* [Genymotion](https://www.genymotion.com/)
 
 ## [Atom](http://atom.io/)
 
@@ -78,6 +79,7 @@ Place these scripts on your home (`~`) directory:
 * [`.gitignore`](./.gitignore) (ignore OS/IDE-specific files globally)
 * [`git-prompt.sh`](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh) (see repository status in your prompt)
 * [`git-completion.bash`](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash) (Git completion support)
+* [`.hyper.js`](./.hyper.js)
 
 ---
 
@@ -120,7 +122,7 @@ Just replace `/usr/local/bin/node` with the output of `which node`.
 
 Hit `Cmd + B` to have the Node interpreter run. Note that the file needs to be saved for this to work.
 
-### Built-in Local Apache Server   
+### Built-in Local Apache Server
 
 To enable PHP edit this file:
 

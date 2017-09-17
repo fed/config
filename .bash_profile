@@ -1,38 +1,32 @@
-# load nvm
+# nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
-# yarn
+# Yarn
 export PATH="$HOME/.yarn/bin:$PATH"
 
-# android
+# Android SDK
 export ANDROID_HOME="$HOME/Library/Android/sdk"
 export PATH=${PATH}:${ANDROID_HOME}/tools
 export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 
-# apache
+# Built-in Apache Server
 alias apache:start='sudo apachectl start && echo "server started"'
 alias apache:stop='sudo apachectl stop && echo "server stopped"'
 alias apache:restart='sudo apachectl restart && echo "server restarted"'
 alias apache:cd='cd /Library/WebServer/Documents'
 
-# display hidden files
-alias hidden:show='defaults write com.apple.finder AppleShowAllFiles YES && echo "Hold the Option/alt key, then right click on the Finder icon in the dock and click Relaunch."'
-alias hidden:hide='defaults write com.apple.finder AppleShowAllFiles NO && echo "Hold the Option/alt key, then right click on the Finder icon in the dock and click Relaunch."'
-
-# aliases
+# Aliases
 alias ll='ls -lhFa'
 alias ws='cd ~/workspace'
 alias sublime='open -a "Sublime Text"'
 alias vscode='open -a "Visual Studio Code"'
+alias sourcetree='open -a SourceTree'
+alias ia='open -a "IA Writer"'
 alias awake='pmset noidle'
+alias android='~/Library/Android/sdk/tools/emulator -avd reactnative'
 
-# rename tabs on iTerm2
-function title {
-  echo -ne "\033]0;"$*"\007"
-}
-
-# git goodness
+# Git goodness
 source ~/.git-completion.bash
 source ~/.git-prompt.sh
 
@@ -40,9 +34,11 @@ function __git_dirty {
   git diff --quiet HEAD &>/dev/null
   [ $? == 1 ] && echo "!"
 }
+
 function __git_branch {
   __git_ps1 "[%s]"
 }
+
 bash_prompt() {
   local NONE="\[\033[0m\]"    # unsets color to term's fg color
   # regular colors
@@ -58,5 +54,6 @@ bash_prompt() {
   [ $UID -eq "0" ] && UC=$R   # root's color
   PS1="$C\u$W@$B\h$C[$W\w$C]$G\$(__git_branch)$R\$(__git_dirty)$W+$NONE "
 }
+
 bash_prompt
 unset bash_prompt

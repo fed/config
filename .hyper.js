@@ -1,13 +1,13 @@
 module.exports = {
   config: {
     // default font size in pixels for all tabs
-    fontSize: 16,
+    fontSize: 14,
 
     // font family with optional fallbacks
     fontFamily: '"Roboto Mono for Powerline", "Meslo LG L DZ for Powerline", "Source Code Pro for Powerline", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
-    cursorColor: 'rgba(248,28,229,0.8)',
+    cursorColor: '#3cca5e',
 
     // `BEAM` for |, `UNDERLINE` for _, `BLOCK` for █
     cursorShape: 'BLOCK',
@@ -22,7 +22,7 @@ module.exports = {
     borderColor: '#333',
 
     // size of window by pixels (width, height)
-     windowSize: [1200, 600],
+    windowSize: [800, 600],
 
     // custom css to embed in the main window
     css: '',
@@ -82,7 +82,7 @@ module.exports = {
     bell: 'SOUND',
 
     // if true, selected text will automatically be copied to the clipboard
-    copyOnSelect: false
+    copyOnSelect: false,
 
     // if true, on right click selected text will be copied or pasted if no
     // selection is present (true by default on Windows)
@@ -92,6 +92,17 @@ module.exports = {
     // bellSoundURL: 'http://example.com/bell.mp3',
 
     // for advanced config flags please refer to https://hyper.is/#cfg
+    hyperTabs: {
+      border: true,
+      tabIconsColored: true,
+      activityColor: 'salmon'
+    },
+
+    hyperStatusLine: {
+      dirtyColor: 'salmon',
+      aheadColor: 'ivory',
+      footerTransparent: false
+    }
   },
 
   // a list of plugins to fetch and install from npm
@@ -101,11 +112,11 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    'hyperline',
+    'hyper-chesterish',
+    'hyper-tabs-enhanced',
+    'hyper-statusline',
     'hyper-blink',
-    'hypermaterial-vibrancy',
-    'hyperlinks',
-    'hyper-tab-icons'
+    'hyperlinks'
   ],
 
   // in development, you can create a directory under
