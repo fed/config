@@ -44,12 +44,13 @@ Some other apps I eventually need:
 * [Sequel Pro](http://www.sequelpro.com/)
 * [Genymotion](https://www.genymotion.com/)
 
-## [Atom](http://atom.io/)
+## Atom
 
-Install the following packages:
+Install [Atom](https://atom.io/) along with the following packages:
 
-* [Nuclide](https://nuclide.io/docs/editor/setup/#macos__installation)
-* [Nuclide's recommended packages](https://nuclide.io/docs/editor/setup/#post-installation__recommended-packages)
+* [nuclide](https://nuclide.io/docs/editor/setup/#macos__installation) and its [recommended packages](https://nuclide.io/docs/editor/setup/#post-installation__recommended-packages)
+* [atom-ide-ui](https://atom.io/packages/atom-ide-ui)
+* [ide-flowtype](https://github.com/flowtype/ide-flowtype)
 * [editorconfig](https://atom.io/packages/editorconfig)
 
 Also install these npm packages globally:
