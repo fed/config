@@ -92,6 +92,12 @@ module.exports = {
     // bellSoundURL: 'http://example.com/bell.mp3',
 
     // for advanced config flags please refer to https://hyper.is/#cfg
+
+    // Plugins configuration
+    hypercwd: {
+      initialWorkingDirectory: '~/workspace'
+    },
+
     hyperTabs: {
       border: true,
       tabIconsColored: true,
@@ -112,6 +118,7 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
+    'hypercwd',
     'hyper-chesterish',
     'hyper-tabs-enhanced',
     'hyper-statusline',
