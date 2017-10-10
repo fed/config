@@ -1,0 +1,34 @@
+{
+  // Start off with an empty window
+  "workbench.startupEditor": "newUntitledFile",
+
+  // Editor Appearance
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+
+  // Hide minimap
+  "editor.minimap.enabled": false,
+
+  // Hide the "open editors" left pane
+  "explorer.openEditors.visible": 0,
+  
+  // Disallow scrolling past the last line
+  "editor.scrollBeyondLastLine": false,
+
+  // Max line width
+  "editor.wordWrap": "on",
+  "editor.rulers": [80],
+  
+  // File Icons
+  "workbench.iconTheme": "file-icons",
+  
+  // CSSComb Configuration
+  "csscomb.formatOnSave": true,
+  "csscomb.preset": {
+    "sort-order-fallback": "abc",
+    "sort-order": ["..."]
+  },
+  
+  // Hide color picker/decorator on CSS files
+  "editor.colorDecorators": false
+}
