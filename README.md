@@ -60,7 +60,7 @@ Install [vscode](https://code.visualstudio.com/) along with the following extens
 * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 * [File Icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)
 
-Also paste the `settings.json` file to `~/Library/Application Support/Code/User`.
+Also copy the `settings.json` file to `~/Library/Application Support/Code/User`.
 
 ## Atom
 
