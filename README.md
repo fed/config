@@ -44,6 +44,24 @@ Some other apps I eventually need:
 * [Sequel Pro](http://www.sequelpro.com/)
 * [Genymotion](https://www.genymotion.com/)
 
+### Visual Studio Code
+
+Install [vscode](https://code.visualstudio.com/) along with the following extensions:
+
+* [Sublime Text Key Bindings](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
+* [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
+* [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+* [CSS Comb](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-csscomb)
+* [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+* [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+* [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+* [Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag)
+* [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+* [File Icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)
+
+Also paste the `settings.json` file to `~/Library/Application Support/Code/User`.
+
 ## Atom
 
 Install [Atom](https://atom.io/) along with the following packages:
@@ -86,18 +104,11 @@ Place these scripts on your home (`~`) directory:
 
 ## Tools I no longer use
 
-### [Visual Studio Code](https://code.visualstudio.com/)
+### Sublime Text
 
-Install the following extensions:
+Install [ST3](https://www.sublimetext.com/) along with the following Sublime packages via [**Package Control**](https://packagecontrol.io/):
 
-* [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
-* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-
-### [Sublime Text](https://www.sublimetext.com/)
-
-Install the following Sublime packages via [**Package Control**](https://packagecontrol.io/):
-
-* [Cobalt2](https://github.com/wesbos/cobalt2)
+* [Hopscotch](https://github.com/idleberg/Hopscotch.tmTheme)
 * [EditorConfig](http://editorconfig.org/)
 * [TerminalView](https://github.com/Wramberg/TerminalView) (display the terminal window within ST3)
 * [Babel](https://github.com/babel/babel-sublime) (ES6 and JSX syntax highlighting)
