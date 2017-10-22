@@ -48,8 +48,9 @@ Some other apps I eventually need:
 
 Install [vscode](https://code.visualstudio.com/) along with the following extensions:
 
-* [Sublime Text Key Bindings](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
+* [Sublime Text Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
 * [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
+* [Flow Language Support](https://marketplace.visualstudio.com/items?itemName=flowtype.flow-for-vscode)
 * [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 * [CSS Comb](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-csscomb)
@@ -90,6 +91,10 @@ npm install -g eslint flow-bin
 * [iA Writer](https://ia.net/writer)
 * [Magnet](http://magnet.crowdcafe.com/)
 * [f.lux](https://justgetflux.com/)
+
+## Themes / Color Schemes
+
+* https://labs.voronianski.com/oceanic-next-color-scheme/
 
 ## Config Files and Git Scripts
 
