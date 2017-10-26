@@ -2,33 +2,47 @@
   // Start off with an empty window
   "workbench.startupEditor": "newUntitledFile",
 
-  // Editor Appearance
-  "editor.fontSize": 16,
+  // Editor appearance
+  "editor.fontFamily": "Operator Mono",
+  "editor.fontSize": 18,
   "editor.tabSize": 2,
+  "editor.cursorStyle": "block",
 
   // Hide minimap
   "editor.minimap.enabled": false,
 
   // Hide the "open editors" left pane
   "explorer.openEditors.visible": 0,
-  
+
   // Disallow scrolling past the last line
   "editor.scrollBeyondLastLine": false,
 
   // Max line width
   "editor.wordWrap": "on",
   "editor.rulers": [80],
-  
-  // File Icons
+
+  // File icons
   "workbench.iconTheme": "file-icons",
-  
-  // CSSComb Configuration
+
+  // CSSComb config
   "csscomb.formatOnSave": true,
   "csscomb.preset": {
     "sort-order-fallback": "abc",
     "sort-order": ["..."]
   },
-  
+
   // Hide color picker/decorator on CSS files
-  "editor.colorDecorators": false
+  "editor.colorDecorators": false,
+
+  // Cursor blinking effect
+  "editor.cursorBlinking": "phase",
+
+  // EditorConfig-like settings
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+
+  // Flow support
+  "flow.useNPMPackagedFlow": true,
+  "javascript.validate.enable": false,
+  "window.zoomLevel": 0
 }
