@@ -61,7 +61,7 @@ Install [vscode](https://code.visualstudio.com/) along with the following extens
 * [Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag)
 * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 * [File Icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)
-* [Bimbo Theme](https://marketplace.visualstudio.com/items?itemName=pawelgrzybek.bimbo-theme)
+* [One Dark Pro Theme](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) / [Bimbo Theme](https://marketplace.visualstudio.com/items?itemName=pawelgrzybek.bimbo-theme)
 
 Also copy the `settings.json` file to `~/Library/Application Support/Code/User`.
 
