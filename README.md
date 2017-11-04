@@ -44,6 +44,12 @@ Some other apps I eventually need:
 * [Sequel Pro](http://www.sequelpro.com/)
 * [Genymotion](https://www.genymotion.com/)
 
+Global Node modules:
+
+```
+npm install -g eslint flow-bin
+```
+
 ### Visual Studio Code
 
 Install [vscode](https://code.visualstudio.com/) along with the following extensions:
@@ -54,6 +60,7 @@ Install [vscode](https://code.visualstudio.com/) along with the following extens
 * [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 * [CSS Comb](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-csscomb)
+* [SCSS Intellisense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss)
 * [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)
 * [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 * [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
@@ -62,6 +69,8 @@ Install [vscode](https://code.visualstudio.com/) along with the following extens
 * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 * [File Icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)
 * [One Dark Pro Theme](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) / [Bimbo Theme](https://marketplace.visualstudio.com/items?itemName=pawelgrzybek.bimbo-theme)
+* [Elm](https://marketplace.visualstudio.com/items?itemName=sbrink.elm)
+* [React Native Tools](https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native)
 
 Also copy the `settings.json` file to `~/Library/Application Support/Code/User`.
 
@@ -74,23 +83,17 @@ Install [Atom](https://atom.io/) along with the following packages:
 * [ide-flowtype](https://github.com/flowtype/ide-flowtype)
 * [editorconfig](https://atom.io/packages/editorconfig)
 
-Also install these npm packages globally:
-
-```
-npm install -g eslint flow-bin
-```
-
 ## Functional Programming
 
-* [Elm Platform](https://guide.elm-lang.org/install.html)
 * [Haskell for Mac](http://haskellformac.com/)
+* [Elm Platform](https://guide.elm-lang.org/install.html)
 
 ## Misc Tools
 
-* [The Unarchiver](http://unarchiver.c3.cx/unarchiver)
 * [iA Writer](https://ia.net/writer)
 * [Magnet](http://magnet.crowdcafe.com/)
 * [f.lux](https://justgetflux.com/)
+* [The Unarchiver](http://unarchiver.c3.cx/unarchiver)
 
 ## Themes / Color Schemes
 
