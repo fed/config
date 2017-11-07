@@ -32,7 +32,7 @@ Must have:
 * [Chrome](https://www.google.com/chrome/)
 * [Hyper](https://hyper.is/)
 * [Git](http://git-scm.com/) (shipped with the command line tools)
-* [GitUp](http://gitup.co/) (useful for going through `diff`'s)
+* [Sourcetree](https://www.sourcetreeapp.com/) (useful for going through `diff`s)
 * [nvm](https://github.com/creationix/nvm)
 * [Yarn](https://yarnpkg.com/) (install using `curl`)
 
@@ -44,10 +44,19 @@ Some other apps I eventually need:
 * [Sequel Pro](http://www.sequelpro.com/)
 * [Genymotion](https://www.genymotion.com/)
 
-Global Node modules:
+Global npm packages:
 
 ```
-npm install -g eslint flow-bin
+fknussel@MacBook[~/workspace]+ npm list -g --depth=0
+/Users/fknussel/.nvm/versions/node/v9.0.0/lib
+├── @storybook/cli@3.2.14
+├── create-react-app@1.4.3
+├── eslint@4.10.0
+├── flow-bin@0.58.0
+├── nodemon@1.12.1
+├── npm@5.5.1
+├── trash-cli@1.4.0
+└── typescript@2.6.1
 ```
 
 ### Visual Studio Code
