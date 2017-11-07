@@ -32,7 +32,7 @@ Must have:
 * [Chrome](https://www.google.com/chrome/)
 * [Hyper](https://hyper.is/)
 * [Git](http://git-scm.com/) (shipped with the command line tools)
-* [Sourcetree](https://www.sourcetreeapp.com/) (useful for going through `diff`s)
+* [Sourcetree](https://www.sourcetreeapp.com/) (useful for going through diffs)
 * [nvm](https://github.com/creationix/nvm)
 * [Yarn](https://yarnpkg.com/) (install using `curl`)
 
@@ -66,10 +66,10 @@ Install [vscode](https://code.visualstudio.com/) along with the following extens
 * [Sublime Text Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
 * [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
 * [Flow Language Support](https://marketplace.visualstudio.com/items?itemName=flowtype.flow-for-vscode)
+* [React Native Tools](https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native)
 * [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 * [CSS Comb](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-csscomb)
-* [SCSS Intellisense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss)
 * [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)
 * [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 * [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
@@ -77,11 +77,9 @@ Install [vscode](https://code.visualstudio.com/) along with the following extens
 * [Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag)
 * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 * [File Icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)
-* [One Dark Pro Theme](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) / [Bimbo Theme](https://marketplace.visualstudio.com/items?itemName=pawelgrzybek.bimbo-theme)
-* [Elm](https://marketplace.visualstudio.com/items?itemName=sbrink.elm)
-* [React Native Tools](https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native)
+* [One Dark Pro Theme](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
 
-Also copy the `settings.json` file to `~/Library/Application Support/Code/User`.
+Also copy the `vscode-settings.json` file to `~/Library/Application Support/Code/User/settings.json`.
 
 ## Atom
 
@@ -117,7 +115,6 @@ Place these scripts on your home (`~`) directory:
 * [`.gitignore`](./.gitignore) (ignore OS/IDE-specific files globally)
 * [`git-prompt.sh`](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh) (see repository status in your prompt)
 * [`git-completion.bash`](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash) (Git completion support)
-* [`.hyper.js`](./.hyper.js)
 
 ---
 
