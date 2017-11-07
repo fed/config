@@ -1,18 +1,18 @@
 {
-  // Start off with an empty window
-  "workbench.startupEditor": "newUntitledFile",
-
   // Editor appearance
   "editor.fontFamily": "Operator Mono",
   "editor.fontSize": 18,
   "editor.tabSize": 2,
+
+  // Block blinking cursor
   "editor.cursorStyle": "block",
+  "editor.cursorBlinking": "phase",
+
+  // Format on save
+  "editor.formatOnPaste": true,
 
   // Hide minimap
   "editor.minimap.enabled": false,
-
-  // Hide the "open editors" left pane
-  "explorer.openEditors.visible": 0,
 
   // Disallow scrolling past the last line
   "editor.scrollBeyondLastLine": false,
@@ -21,21 +21,18 @@
   "editor.wordWrap": "on",
   "editor.rulers": [80],
 
-  // File icons
-  "workbench.iconTheme": "file-icons",
-
-  // CSSComb config
-  "csscomb.formatOnSave": true,
-  "csscomb.preset": {
-    "sort-order-fallback": "abc",
-    "sort-order": ["..."]
-  },
-
   // Hide color picker/decorator on CSS files
   "editor.colorDecorators": false,
 
-  // Cursor blinking effect
-  "editor.cursorBlinking": "phase",
+  // Start off with an empty window
+  "workbench.startupEditor": "newUntitledFile",
+
+  // Color and icon themes
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "file-icons",
+
+  // Hide the "open editors" left pane
+  "explorer.openEditors.visible": 0,
 
   // EditorConfig-like settings
   "files.insertFinalNewline": true,
@@ -44,5 +41,11 @@
   // Flow support
   "flow.useNPMPackagedFlow": true,
   "javascript.validate.enable": false,
-  "window.zoomLevel": 0
+
+  // CSSComb config
+  "csscomb.formatOnSave": true,
+  "csscomb.preset": {
+    "sort-order-fallback": "abc",
+    "sort-order": ["..."]
+  }
 }
