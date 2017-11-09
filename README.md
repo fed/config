@@ -30,14 +30,15 @@ xcode-select --install
 Must have:
 
 * [Chrome](https://www.google.com/chrome/)
-* [Hyper](https://hyper.is/)
+* [iTerm2](https://www.iterm2.com/)
 * [Git](http://git-scm.com/) (shipped with the command line tools)
-* [Sourcetree](https://www.sourcetreeapp.com/) (useful for going through diffs)
+* [Fork](https://git-fork.com/) (useful for going through diffs)
 * [nvm](https://github.com/creationix/nvm)
 * [Yarn](https://yarnpkg.com/) (install using `curl`)
 
-Some other apps I eventually need:
+Some other tools I eventually need:
 
+* [Haskell for Mac](http://haskellformac.com/)
 * [Charles Proxy](https://www.charlesproxy.com/)
 * [Postman](https://www.getpostman.com/)
 * [CyberDuck](https://cyberduck.io/)
@@ -51,8 +52,10 @@ fknussel@MacBook[~/workspace]+ npm list -g --depth=0
 /Users/fknussel/.nvm/versions/node/v9.0.0/lib
 ├── @storybook/cli@3.2.14
 ├── create-react-app@1.4.3
+├── elm@0.18.0
 ├── eslint@4.10.0
 ├── flow-bin@0.58.0
+├── http-server@0.10.0
 ├── nodemon@1.12.1
 ├── npm@5.5.1
 ├── trash-cli@1.4.0
@@ -63,7 +66,6 @@ fknussel@MacBook[~/workspace]+ npm list -g --depth=0
 
 Install [vscode](https://code.visualstudio.com/) along with the following extensions:
 
-* [Sublime Text Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
 * [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
 * [Flow Language Support](https://marketplace.visualstudio.com/items?itemName=flowtype.flow-for-vscode)
 * [React Native Tools](https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native)
@@ -90,11 +92,6 @@ Install [Atom](https://atom.io/) along with the following packages:
 * [ide-flowtype](https://github.com/flowtype/ide-flowtype)
 * [editorconfig](https://atom.io/packages/editorconfig)
 
-## Functional Programming
-
-* [Haskell for Mac](http://haskellformac.com/)
-* [Elm Platform](https://guide.elm-lang.org/install.html)
-
 ## Misc Tools
 
 * [iA Writer](https://ia.net/writer)
@@ -104,7 +101,7 @@ Install [Atom](https://atom.io/) along with the following packages:
 
 ## Themes / Color Schemes
 
-* https://labs.voronianski.com/oceanic-next-color-scheme/
+* [Oceanic Next Color Scheme](https://labs.voronianski.com/oceanic-next-color-scheme/)
 
 ## Config Files and Git Scripts
 
@@ -122,12 +119,12 @@ Place these scripts on your home (`~`) directory:
 
 ### Sublime Text
 
-Install [ST3](https://www.sublimetext.com/) along with the following Sublime packages via [**Package Control**](https://packagecontrol.io/):
+Install [ST3](https://www.sublimetext.com/) along with the following packages via [Package Control](https://packagecontrol.io/):
 
 * [Hopscotch](https://github.com/idleberg/Hopscotch.tmTheme)
 * [EditorConfig](http://editorconfig.org/)
 * [TerminalView](https://github.com/Wramberg/TerminalView) (display the terminal window within ST3)
-* [Babel](https://github.com/babel/babel-sublime) (ES6 and JSX syntax highlighting)
+* [Babel](https://github.com/babel/babel-sublime) (ES6+ and JSX syntax highlighting)
 * [SCSS](https://github.com/MarioRicalde/SCSS.tmbundle) (SCSS syntax highlighting)
 * [DocBlockr](https://github.com/spadgos/sublime-jsdocs)
 * [Pretty JSON](https://github.com/dzhibas/SublimePrettyJson)
