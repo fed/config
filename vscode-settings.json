@@ -28,11 +28,13 @@
   "workbench.startupEditor": "newUntitledFile",
 
   // Color and icon themes
-  "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "file-icons",
 
   // Hide the "open editors" left pane
   "explorer.openEditors.visible": 0,
+  
+  // Disable confirmation when moving things around in the explorer panel
+  "explorer.confirmDragAndDrop": false,
 
   // EditorConfig-like settings
   "files.insertFinalNewline": true,
