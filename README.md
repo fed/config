@@ -54,7 +54,6 @@ fknussel@MacBook[~/workspace]+ npm list -g --depth=0
 ├── create-react-app@1.4.3
 ├── elm@0.18.0
 ├── eslint@4.10.0
-├── flow-bin@0.58.0
 ├── http-server@0.10.0
 ├── nodemon@1.12.1
 ├── npm@5.5.1
@@ -79,7 +78,6 @@ Install [vscode](https://code.visualstudio.com/) along with the following extens
 * [Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag)
 * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 * [File Icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)
-* [One Dark Pro Theme](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
 
 Also copy the `vscode-settings.json` file to `~/Library/Application Support/Code/User/settings.json`.
 
