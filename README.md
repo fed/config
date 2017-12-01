@@ -54,9 +54,9 @@ fknussel@MacBook[~/workspace]+ npm list -g --depth=0
 ├── create-react-app@1.4.3
 ├── elm@0.18.0
 ├── eslint@4.10.0
-├── http-server@0.10.0
 ├── nodemon@1.12.1
 ├── npm@5.5.1
+├── serve@6.4.1
 ├── trash-cli@1.4.0
 └── typescript@2.6.1
 ```
@@ -81,25 +81,12 @@ Install [vscode](https://code.visualstudio.com/) along with the following extens
 
 Also copy the `vscode-settings.json` file to `~/Library/Application Support/Code/User/settings.json`.
 
-## Atom
-
-Install [Atom](https://atom.io/) along with the following packages:
-
-* [nuclide](https://nuclide.io/docs/editor/setup/#macos__installation) and its [recommended packages](https://nuclide.io/docs/editor/setup/#post-installation__recommended-packages)
-* [atom-ide-ui](https://atom.io/packages/atom-ide-ui)
-* [ide-flowtype](https://github.com/flowtype/ide-flowtype)
-* [editorconfig](https://atom.io/packages/editorconfig)
-
-## Misc Tools
+## Misc (non-dev) Tools
 
 * [iA Writer](https://ia.net/writer)
 * [Magnet](http://magnet.crowdcafe.com/)
 * [f.lux](https://justgetflux.com/)
 * [The Unarchiver](http://unarchiver.c3.cx/unarchiver)
-
-## Themes / Color Schemes
-
-* [Oceanic Next Color Scheme](https://labs.voronianski.com/oceanic-next-color-scheme/)
 
 ## Config Files and Git Scripts
 
@@ -111,9 +98,22 @@ Place these scripts on your home (`~`) directory:
 * [`git-prompt.sh`](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh) (see repository status in your prompt)
 * [`git-completion.bash`](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash) (Git completion support)
 
+## Themes / Color Schemes
+
+* [Oceanic Next Color Scheme](https://labs.voronianski.com/oceanic-next-color-scheme/)
+
 ---
 
 ## Tools I no longer use
+
+## Atom
+
+Install [Atom](https://atom.io/) along with the following packages:
+
+* [nuclide](https://nuclide.io/docs/editor/setup/#macos__installation) and its [recommended packages](https://nuclide.io/docs/editor/setup/#post-installation__recommended-packages)
+* [atom-ide-ui](https://atom.io/packages/atom-ide-ui)
+* [ide-flowtype](https://github.com/flowtype/ide-flowtype)
+* [editorconfig](https://atom.io/packages/editorconfig)
 
 ### Sublime Text
 
@@ -166,4 +166,4 @@ sudo chown -R fknussel: /Library/WebServer/Documents
 sudo chmod -R a+wx /Library/WebServer/Documents
 ```
 
-Restart Apache.
+Restart Apache (using aliases on `~/.bash_profile`).
