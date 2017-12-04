@@ -24,15 +24,15 @@
   // Hide color picker/decorator on CSS files
   "editor.colorDecorators": false,
 
-  // Start off with an empty window
-  "workbench.startupEditor": "newUntitledFile",
-
   // Color and icon themes
   "workbench.iconTheme": "file-icons",
 
+  // Start off with an empty window
+  "workbench.startupEditor": "newUntitledFile",
+
   // Hide the "open editors" left pane
   "explorer.openEditors.visible": 0,
-  
+
   // Disable confirmation when moving things around in the explorer panel
   "explorer.confirmDragAndDrop": false,
 
@@ -44,10 +44,21 @@
   "flow.useNPMPackagedFlow": true,
   "javascript.validate.enable": false,
 
-  // CSSComb config
+  // Sort CSS rules alphabetically using CSSComb
   "csscomb.formatOnSave": true,
   "csscomb.preset": {
     "sort-order-fallback": "abc",
     "sort-order": ["..."]
-  }
+  },
+
+  // Prettier
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "prettier.disableLanguages": [
+    "json",
+    "markdown"
+  ],
+
+  // If you’re using ESLint, force Prettier to format your code based on your .eslintrc.json
+  "prettier.eslintIntegration": true
 }
