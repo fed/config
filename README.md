@@ -112,6 +112,9 @@ Install [Atom](https://atom.io/) along with the following packages:
 * [nuclide](https://nuclide.io/docs/editor/setup/#macos__installation) and its [recommended packages](https://nuclide.io/docs/editor/setup/#post-installation__recommended-packages)
 * [atom-ide-ui](https://atom.io/packages/atom-ide-ui)
 * [ide-flowtype](https://github.com/flowtype/ide-flowtype)
+* [prettier-atom](https://atom.io/packages/prettier-atom)
+* [linter-eslint](https://github.com/AtomLinter/linter-eslint)
+* [linter-stylelint](https://atom.io/packages/linter-stylelint)
 * [editorconfig](https://atom.io/packages/editorconfig)
 
 ### Sublime Text
