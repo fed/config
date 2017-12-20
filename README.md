@@ -35,6 +35,7 @@ Must have:
 * [Fork](https://git-fork.com/) (useful for going through diffs)
 * [nvm](https://github.com/creationix/nvm)
 * [Yarn](https://yarnpkg.com/) (install using `curl`)
+* [Watchman](https://facebook.github.io/watchman/) (make sure it's in your `$PATH` environment variable)
 
 Some other tools I eventually need:
 
@@ -59,7 +60,18 @@ fknussel@MacBook[~/workspace]+ npm list -g --depth=0
 └── typescript@2.6.2
 ```
 
-### Visual Studio Code
+## Nuclide <img src="https://nuclide.io/static/logo.png" width="30" />
+
+Install [Atom](https://atom.io/) along with the following packages:
+
+* [Nuclide](https://nuclide.io/docs/editor/setup/#macos__installation) and its [recommended packages](https://nuclide.io/docs/editor/setup/#post-installation__recommended-packages)
+* [linter-eslint](https://atom.io/packages/linter-eslint)
+* [linter-stylelint](https://atom.io/packages/linter-stylelint)
+* [editorconfig](https://atom.io/packages/editorconfig)
+* [prettier-atom](https://atom.io/packages/prettier-atom) (disable Linter package, keep Nuclide Code Diagnostics)
+* [css-comb](https://atom.io/packages/css-comb)
+
+## Visual Studio Code <img src="https://user-images.githubusercontent.com/29654835/27530003-e78876b8-5a13-11e7-8863-83fbdb900f72.png" width="30" />
 
 Install [vscode](https://code.visualstudio.com/) along with the following extensions:
 
@@ -104,18 +116,6 @@ Place these scripts on your home (`~`) directory:
 ---
 
 ## Tools I no longer use
-
-## Atom
-
-Install [Atom](https://atom.io/) along with the following packages:
-
-* [nuclide](https://nuclide.io/docs/editor/setup/#macos__installation) and its [recommended packages](https://nuclide.io/docs/editor/setup/#post-installation__recommended-packages)
-* [atom-ide-ui](https://atom.io/packages/atom-ide-ui)
-* [ide-flowtype](https://github.com/flowtype/ide-flowtype)
-* [prettier-atom](https://atom.io/packages/prettier-atom)
-* [linter-eslint](https://github.com/AtomLinter/linter-eslint)
-* [linter-stylelint](https://atom.io/packages/linter-stylelint)
-* [editorconfig](https://atom.io/packages/editorconfig)
 
 ### Sublime Text
 
