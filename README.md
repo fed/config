@@ -65,6 +65,7 @@ fknussel@MacBook[~/workspace]+ npm list -g --depth=0
 Install [Atom](https://atom.io/) along with the following packages:
 
 * [Nuclide](https://nuclide.io/docs/editor/setup/#macos__installation) and its [recommended packages](https://nuclide.io/docs/editor/setup/#post-installation__recommended-packages)
+* [ide-flowtype](https://atom.io/packages/ide-flowtype)
 * [linter-eslint](https://atom.io/packages/linter-eslint)
 * [linter-stylelint](https://atom.io/packages/linter-stylelint)
 * [editorconfig](https://atom.io/packages/editorconfig)
