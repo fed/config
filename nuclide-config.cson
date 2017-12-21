@@ -1,0 +1,49 @@
+"*":
+  "atom-package-deps":
+    ignored: [
+      "prettier-atom"
+    ]
+  core:
+    closeDeletedFileTabs: true
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".hgrc"
+        ".flowconfig"
+      ]
+      "source.json": [
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "tree-view"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 20
+    softWrap: true
+  "exception-reporting":
+    userId: "7d627548-52b6-4f41-ba20-3af3edf9750f"
+  "ide-flowtype":
+    tryFlowBin: true
+  nuclide:
+    "atom-ide-code-format":
+      formatOnSave: true
+    installRecommendedPackages: true
+    "nuclide-file-tree":
+      showOpenFiles: false
+      showUncommittedChanges: false
+    "nuclide-flow":
+      canUseFlowBin: true
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+    prettierOptions:
+      singleQuote: true
+    useEslint: true
+  "tool-bar":
+    position: "Left"
+  welcome:
+    showOnStartup: false
