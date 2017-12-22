@@ -20,7 +20,11 @@
     disabledPackages: [
       "tree-view"
     ]
+    openEmptyEditorOnStart: false
     telemetryConsent: "limited"
+  "css-comb":
+    shouldUpdateOnSave: true
+    showNotifications: false
   editor:
     fontSize: 20
     softWrap: true
