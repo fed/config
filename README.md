@@ -64,16 +64,20 @@ fknussel@MacBook[~/workspace]+ npm list -g --depth=0
 
 Install [Atom](https://atom.io/) along with the following packages:
 
-* [Nuclide](https://nuclide.io/docs/editor/setup/#macos__installation) and its [recommended packages](https://nuclide.io/docs/editor/setup/#post-installation__recommended-packages) (**)
-* [ide-flowtype](https://atom.io/packages/ide-flowtype) (for some reason this functionality doesn't ship with Nuclide 🤷‍♂️)
+* [Nuclide](https://nuclide.io/docs/editor/setup/#macos__installation) and its [recommended packages](https://nuclide.io/docs/editor/setup/#post-installation__recommended-packages)
+* [ide-flowtype](https://atom.io/packages/ide-flowtype)
+* [autocomplete-paths](https://atom.io/packages/autocomplete-paths)
 * [linter-eslint](https://atom.io/packages/linter-eslint)
 * [linter-stylelint](https://atom.io/packages/linter-stylelint)
 * [editorconfig](https://atom.io/packages/editorconfig)
-* [prettier-atom](https://atom.io/packages/prettier-atom) (do not install Linter when prompted to, Nuclide Code Diagnostics will take care) (*)
-* [css-comb](https://atom.io/packages/css-comb) (*)
+* [prettier-atom](https://atom.io/packages/prettier-atom) (do not install Linter when prompted to, Nuclide Code Diagnostics will take care)
+* [css-comb](https://atom.io/packages/css-comb)
 
-(*) Enable format on save.<br />
-(**) Enable "Use the Flow binary included in each project's flow-bin (requires restart)".
+Remember to enable *format on save* on both Prettier and CSSComb.
+
+*Note:* for some reason, Flow support is not being shipped with Nuclide by default. That's why we need to install ide-flowtype as well. Make sure to enable "Use the Flow binary included in each project's flow-bin (requires restart)" on the Nuclide settings (can also be toggled on the ide-flowtype package settings).
+
+Editor and package settings can be found [here](./nuclide-config.cson).
 
 ## Visual Studio Code <img src="https://user-images.githubusercontent.com/29654835/27530003-e78876b8-5a13-11e7-8863-83fbdb900f72.png" width="30" />
 
