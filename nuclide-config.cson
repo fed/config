@@ -44,6 +44,10 @@
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
+      excludedGlobs: [
+        "*.md"
+      ]
+      showInStatusBar: true
     prettierOptions:
       singleQuote: true
     useEslint: true
