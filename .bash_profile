@@ -16,15 +16,17 @@ alias apache:stop='sudo apachectl stop && echo "server stopped"'
 alias apache:restart='sudo apachectl restart && echo "server restarted"'
 alias apache:cd='cd /Library/WebServer/Documents'
 
-# Aliases
+# General Aliases
 alias ll='ls -lhFa'
 alias ws='cd ~/workspace'
+alias awake='pmset noidle'
+
+# App Aliases
 alias sublime='open -a "Sublime Text"'
 alias vscode='open -a "Visual Studio Code - Insiders"'
-alias sourcetree='open -a SourceTree'
+alias nuclide='open -a Atom'
+alias fork='open -a Fork'
 alias ia='open -a "IA Writer"'
-alias awake='pmset noidle'
-alias android='~/Library/Android/sdk/tools/emulator -avd reactnative'
 
 # Git goodness
 source ~/.git-completion.bash
