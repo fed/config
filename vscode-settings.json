@@ -1,6 +1,7 @@
 {
   // Editor appearance
-  "editor.fontSize": 18,
+  "editor.fontSize": 20,
+  "editor.lineHeight": 30,
   "editor.tabSize": 2,
 
   // Block blinking cursor
@@ -8,7 +9,7 @@
   "editor.cursorBlinking": "phase",
 
   // Format on save
-  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
 
   // Hide minimap
   "editor.minimap.enabled": false,
@@ -18,12 +19,15 @@
 
   // Max line width
   "editor.wordWrap": "on",
-  "editor.rulers": [80],
+  "editor.rulers": [
+    80
+  ],
 
   // Hide color picker/decorator on CSS files
   "editor.colorDecorators": false,
 
   // Color and icon themes
+  "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "file-icons",
 
   // Start off with an empty window
@@ -47,13 +51,15 @@
   "csscomb.formatOnSave": true,
   "csscomb.preset": {
     "sort-order-fallback": "abc",
-    "sort-order": ["..."]
+    "sort-order": [
+      "..."
+    ]
   },
 
   // Prettier
-  "editor.formatOnSave": true,
   "prettier.singleQuote": true,
   "prettier.disableLanguages": [
+    "html",
     "json",
     "markdown"
   ],
