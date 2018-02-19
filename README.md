@@ -27,8 +27,6 @@ xcode-select --install
 
 ## Dev Tools
 
-Must have:
-
 * [Chrome](https://www.google.com/chrome/)
 * [iTerm2](https://www.iterm2.com/)
 * [Git](http://git-scm.com/) (shipped with the command line tools)
@@ -36,9 +34,7 @@ Must have:
 * [nvm](https://github.com/creationix/nvm)
 * [Yarn](https://yarnpkg.com/) (install using `curl`)
 * [Watchman](https://facebook.github.io/watchman/) (make sure it's in your `$PATH` environment variable)
-
-Some other tools I eventually need:
-
+* [React Native Debugger](https://github.com/jhen0409/react-native-debugger)
 * [Haskell for Mac](http://haskellformac.com/)
 * [Charles Proxy](https://www.charlesproxy.com/)
 * [Postman](https://www.getpostman.com/)
@@ -46,7 +42,15 @@ Some other tools I eventually need:
 * [Sequel Pro](http://www.sequelpro.com/)
 * [Genymotion](https://www.genymotion.com/)
 
-Global npm packages:
+## Misc (non-dev) Tools
+
+* [iA Writer](https://ia.net/writer)
+* [Magnet](http://magnet.crowdcafe.com/)
+* [Xnip](http://xnipapp.com/)
+* [f.lux](https://justgetflux.com/)
+* [The Unarchiver](http://unarchiver.c3.cx/unarchiver)
+
+## Global npm packages
 
 ```
 fknussel@MacBook[~/workspace]+ npm list -g --depth=0
@@ -100,13 +104,6 @@ Install [vscode](https://code.visualstudio.com/) along with the following extens
 
 Also copy the `vscode-settings.json` file to `~/Library/Application Support/Code/User/settings.json`.
 
-## Misc (non-dev) Tools
-
-* [iA Writer](https://ia.net/writer)
-* [Magnet](http://magnet.crowdcafe.com/)
-* [f.lux](https://justgetflux.com/)
-* [The Unarchiver](http://unarchiver.c3.cx/unarchiver)
-
 ## Config Files and Git Scripts
 
 Place these scripts on your home (`~`) directory:
@@ -121,7 +118,7 @@ Place these scripts on your home (`~`) directory:
 ## Themes / Color Schemes
 
 * [Gloom](https://github.com/hejrobin/gloom)
-* [Oceanic Next](https://labs.voronianski.com/oceanic-next-color-scheme/) (with background colour set to `#282c35`)](https://twitter.com/dan_abramov/status/965258454624595968)
+* [Oceanic Next](https://labs.voronianski.com/oceanic-next-color-scheme/) (with background colour set to `#282c35`)
 
 ---
 
