@@ -22,11 +22,17 @@
     ]
     openEmptyEditorOnStart: false
     telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "gloom"
+    ]
   "css-comb":
+    customConfig: "~/.csscomb.json"
     shouldUpdateOnSave: true
     showNotifications: false
   editor:
     fontSize: 20
+    showIndentGuide: true
     softWrap: true
   "exception-reporting":
     userId: "7d627548-52b6-4f41-ba20-3af3edf9750f"
@@ -41,6 +47,8 @@
       showUncommittedChanges: false
     "nuclide-flow":
       canUseFlowBin: true
+    "nuclide-home":
+      showHome: false
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true

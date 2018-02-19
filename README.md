@@ -116,10 +116,12 @@ Place these scripts on your home (`~`) directory:
 * [`.gitignore`](./.gitignore) (ignore OS/IDE-specific files globally)
 * [`git-prompt.sh`](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh) (see repository status in your prompt)
 * [`git-completion.bash`](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash) (Git completion support)
+* [`.csscomb.json`](./.csscomb.json)
 
 ## Themes / Color Schemes
 
-* [Oceanic Next Color Scheme](https://labs.voronianski.com/oceanic-next-color-scheme/)
+* [Gloom](https://github.com/hejrobin/gloom)
+* [Oceanic Next](https://labs.voronianski.com/oceanic-next-color-scheme/) (with background colour set to `#282c35`)](https://twitter.com/dan_abramov/status/965258454624595968)
 
 ---
 

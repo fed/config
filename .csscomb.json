@@ -1,0 +1,10 @@
+{
+  "remove-empty-rulesets": true,
+  "color-case": "lower",
+  "color-shorthand": true,
+  "element-case": "lower",
+  "leading-zero": true,
+  "sort-order-fallback": "abc",
+  "sort-order": ["..."],
+  "unitless-zero": true
+}
