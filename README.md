@@ -120,6 +120,17 @@ Place these scripts on your home (`~`) directory:
 * [Gloom](https://github.com/hejrobin/gloom)
 * [Oceanic Next](https://labs.voronianski.com/oceanic-next-color-scheme/) (with background colour set to `#282c35`)
 
+## Useful WebApps
+
+* Upload images: https://imgur.com/
+* Upload PDF documents: https://scribd.com/
+* Upload slides: https://speakerdeck.com/
+* Project Management and Agile Boards: https://trello.com/
+* Read later: https://getpocket.com/
+* Lists: https://workflowy.com/
+* Live code sharing: https://codeshare.io/
+* Code snippets: https://codepen.io/ and http://v5.jsbin.com/
+
 ---
 
 ## Tools I no longer use
