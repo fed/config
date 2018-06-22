@@ -50,6 +50,15 @@ xcode-select --install
 * [f.lux](https://justgetflux.com/)
 * [The Unarchiver](http://unarchiver.c3.cx/unarchiver)
 
+## Chrome Extensions
+
+* [React DevTools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+* [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
+* [DevTools Dark Theme](https://chrome.google.com/webstore/detail/devtools-theme-zero-dark/bomhdjeadceaggdgfoefmpeafkjhegbo)
+* [Refined GitHub](https://chrome.google.com/webstore/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf)
+* [Refined Twitter](https://chrome.google.com/webstore/detail/refined-twitter/nlfgmdembofgodcemomfeimamihoknip/)
+* [Save to Pocket](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj)
+
 ## Global npm packages
 
 ```
@@ -87,6 +96,7 @@ Editor and package settings can be found [here](./nuclide-config.cson).
 
 Install [vscode](https://code.visualstudio.com/) along with the following extensions:
 
+* [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
 * [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 * [Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag)
 * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
@@ -117,8 +127,8 @@ Place these scripts on your home (`~`) directory:
 
 ## Themes / Color Schemes
 
-* [Gloom](https://github.com/hejrobin/gloom)
-* [Oceanic Next](https://labs.voronianski.com/oceanic-next-color-scheme/) (with background colour set to `#282c35`)
+* [Gloom](https://github.com/hejrobin/gloom) for [Atom](https://atom.io/packages/gloom)
+* [Oceanic Next](https://labs.voronianski.com/oceanic-next-color-scheme/) (with background colour set to `#282c35`) for [Code](https://marketplace.visualstudio.com/items?itemName=naumovs.theme-oceanicnext) and [iTerm](https://github.com/mhartington/oceanic-next-iterm)
 
 ## Useful WebApps
 
@@ -129,7 +139,7 @@ Place these scripts on your home (`~`) directory:
 * Read later: https://getpocket.com/
 * Lists: https://workflowy.com/
 * Live code sharing: https://codeshare.io/
-* Code snippets: https://codepen.io/ and http://v5.jsbin.com/
+* Code snippets and online editors: https://codepen.io/, http://v5.jsbin.com/ and https://codesandbox.io/
 
 ---
 
