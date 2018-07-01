@@ -203,3 +203,13 @@ sudo chmod -R a+wx /Library/WebServer/Documents
 ```
 
 Restart Apache (using aliases on `~/.bash_profile`).
+
+### PHP
+
+PHP comes preinstalled on Mac OS X, so no install is required, and you can run PHP immediately by opening the console and typing:
+
+```
+php -S localhost:8000
+```
+
+The folder where you run that command will be treated as the web root.
