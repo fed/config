@@ -25,6 +25,12 @@ mkdir ~/workspace
 xcode-select --install
 ```
 
+## [Adding SSH key to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#adding-your-ssh-key-to-the-ssh-agent)
+
+```
+ssh-add -K ~/.ssh/id_rsa
+```
+
 ## Dev Tools
 
 * [Chrome](https://www.google.com/chrome/)
@@ -40,7 +46,6 @@ xcode-select --install
 * [Postman](https://www.getpostman.com/)
 * [CyberDuck](https://cyberduck.io/)
 * [Sequel Pro](http://www.sequelpro.com/)
-* [Genymotion](https://www.genymotion.com/)
 
 ## Misc (non-dev) Tools
 
@@ -48,7 +53,7 @@ xcode-select --install
 * [Magnet](http://magnet.crowdcafe.com/)
 * [Xnip](http://xnipapp.com/)
 * [f.lux](https://justgetflux.com/)
-* [The Unarchiver](http://unarchiver.c3.cx/unarchiver)
+* [Dr. Unarchiver](https://www.drcleaner.com/dr-unarchiver/)
 
 ## Chrome Extensions
 
@@ -138,6 +143,7 @@ Place these scripts on your home (`~`) directory:
 * Project Management and Agile Boards: https://trello.com/
 * Read later: https://getpocket.com/
 * Lists: https://workflowy.com/
+* Dropbox Paper: https://paper.dropbox.com/
 * Live code sharing: https://codeshare.io/
 * Code snippets and online editors: https://codepen.io/, http://v5.jsbin.com/ and https://codesandbox.io/
 
