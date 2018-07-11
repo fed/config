@@ -20,6 +20,7 @@ alias apache:cd='cd /Library/WebServer/Documents'
 alias ll='ls -lhFa'
 alias ws='cd ~/workspace'
 alias awake='pmset noidle'
+alias brewski='brew update && brew upgrade && brew cleanup; brew doctor'
 
 # App Aliases
 alias sublime='open -a "Sublime Text"'
