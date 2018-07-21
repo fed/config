@@ -1,6 +1,6 @@
 # Developer's macOS Fresh Install
 
-This document describes how I set up my development environment on a brand new MacBook or iMac 🖥
+This document describes how I set up my development environment on a brand new MacBook 🖥
 
 ## System Preferences
 
@@ -33,19 +33,27 @@ ssh-add -K ~/.ssh/id_rsa
 
 ## Dev Tools
 
+Must have:
+
 * [Chrome](https://www.google.com/chrome/)
 * [iTerm2](https://www.iterm2.com/)
 * [Git](http://git-scm.com/) (shipped with the command line tools)
-* [Fork](https://git-fork.com/) (useful for going through diffs)
 * [nvm](https://github.com/creationix/nvm)
 * [Yarn](https://yarnpkg.com/) (install using `curl`)
-* [Watchman](https://facebook.github.io/watchman/) (make sure it's in your `$PATH` environment variable)
-* [React Native Debugger](https://github.com/jhen0409/react-native-debugger)
+
+Optional:
+
 * [Haskell for Mac](http://haskellformac.com/)
 * [Charles Proxy](https://www.charlesproxy.com/)
 * [Postman](https://www.getpostman.com/)
 * [CyberDuck](https://cyberduck.io/)
 * [Sequel Pro](http://www.sequelpro.com/)
+* [Fork](https://git-fork.com/) (useful for going through diffs)
+
+React Native:
+
+* [Watchman](https://facebook.github.io/watchman/) (make sure it's in your `$PATH` environment variable)
+* [React Native Debugger](https://github.com/jhen0409/react-native-debugger)
 
 ## Misc (non-dev) Tools
 
@@ -61,21 +69,12 @@ ssh-add -K ~/.ssh/id_rsa
 * [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
 * [DevTools Dark Theme](https://chrome.google.com/webstore/detail/devtools-theme-zero-dark/bomhdjeadceaggdgfoefmpeafkjhegbo)
 * [Refined GitHub](https://chrome.google.com/webstore/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf)
-* [Refined Twitter](https://chrome.google.com/webstore/detail/refined-twitter/nlfgmdembofgodcemomfeimamihoknip/)
 * [Save to Pocket](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj)
 
 ## Global npm packages
 
 ```
-fknussel@MacBook[~/workspace]+ npm list -g --depth=0
-/Users/fknussel/.nvm/versions/node/v8.9.1/lib
-├── @storybook/cli@3.2.17
-├── create-react-app@1.4.3
-├── elm@0.18.0
-├── flow-typed@2.2.3
-├── npm@5.5.1
-├── trash-cli@1.4.0
-└── typescript@2.6.2
+yarn global add elm create-react-app trash-cli
 ```
 
 ## Nuclide <img src="https://nuclide.io/static/logo.png" width="30" />
@@ -137,6 +136,7 @@ Place these scripts on your home (`~`) directory:
 
 ## Useful WebApps
 
+* Notes across devices: https://simplenote.com/
 * Upload images: https://imgur.com/
 * Upload PDF documents: https://scribd.com/
 * Upload slides: https://speakerdeck.com/
@@ -155,13 +155,14 @@ Place these scripts on your home (`~`) directory:
 
 Install [ST3](https://www.sublimetext.com/) along with the following packages via [Package Control](https://packagecontrol.io/):
 
-* [Hopscotch](https://github.com/idleberg/Hopscotch.tmTheme)
 * [EditorConfig](http://editorconfig.org/)
 * [TerminalView](https://github.com/Wramberg/TerminalView) (display the terminal window within ST3)
 * [Babel](https://github.com/babel/babel-sublime) (ES6+ and JSX syntax highlighting)
 * [SCSS](https://github.com/MarioRicalde/SCSS.tmbundle) (SCSS syntax highlighting)
 * [DocBlockr](https://github.com/spadgos/sublime-jsdocs)
 * [Pretty JSON](https://github.com/dzhibas/SublimePrettyJson)
+* [One Dark Theme](https://github.com/andresmichel/one-dark-theme)
+* [A File Icon](https://github.com/ihodev/a-file-icon)
 * [SublimeLinter](http://www.sublimelinter.com/)
 * [SublimeLinter-contrib-eslint](https://github.com/roadhump/SublimeLinter-eslint) (dependency: `npm install -g eslint`)
 * [SublimeLinter-contrib-sass-lint](https://github.com/skovhus/SublimeLinter-contrib-sass-lint) (dependency: `npm install -g sass-lint`)

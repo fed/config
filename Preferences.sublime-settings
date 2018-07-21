@@ -4,23 +4,28 @@
   "caret_extra_bottom": 3,
   "caret_extra_top": 3,
   "caret_extra_width": 2,
-  "color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
-  "font_face": "Operator Mono Book",
-  "font_size": 22,
+  "color_scheme": "Packages/Theme - One Dark/One Dark.tmTheme",
+  "font_face": "Fira Code Retina",
+  "font_options":
+  [
+    "subpixel_antialias"
+  ],
+  "font_size": 16,
   "highlight_line": true,
   "highlight_modified_tabs": true,
-  "ignored_packages": [
+  "ignored_packages":
+  [
     "Vintage"
-  ],
-  "indent_guide_options": [
-    "draw_normal",
-    "draw_active"
   ],
   "line_padding_bottom": 3,
   "line_padding_top": 3,
   "overlay_scroll_bars": "enabled",
-  "rulers": [140],
-  "theme": "Cobalt2.sublime-theme",
+  "rulers":
+  [
+    140
+  ],
+  "tab_size": 2,
+  "theme": "One Dark.sublime-theme",
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
   "word_wrap": true
