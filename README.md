@@ -6,6 +6,14 @@ This document describes how I set up my development environment on a brand new M
 
 * General > Use dark menu bar and dock
 * Dock > Automatically hide and show the Dock
+* Notifications > Turn on "Do Not Disturb" when mirroring to TVs and projectors
+* Siri > Disable Ask Siri
+
+## Finder Preferences
+
+* General > New Finder windows show
+* Sidebar > Show these items in the sidebar
+* Advanced > Show all filename extensions
 
 ## Hostname
 
@@ -35,11 +43,13 @@ ssh-add -K ~/.ssh/id_rsa
 
 Must have:
 
+* [Homebrew](https://brew.sh/)
 * [Chrome](https://www.google.com/chrome/)
 * [iTerm2](https://www.iterm2.com/)
 * [Git](http://git-scm.com/) (shipped with the command line tools)
+* [ZSH](https://ohmyz.sh/)
 * [nvm](https://github.com/creationix/nvm)
-* [Yarn](https://yarnpkg.com/) (install using `curl`)
+* [Yarn](https://yarnpkg.com/)
 
 Optional:
 
@@ -62,19 +72,38 @@ React Native:
 * [Xnip](http://xnipapp.com/)
 * [f.lux](https://justgetflux.com/)
 * [Dr. Unarchiver](https://www.drcleaner.com/dr-unarchiver/)
+* [Flycut](https://github.com/TermiT/Flycut)
 
 ## Chrome Extensions
 
 * [React DevTools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 * [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
-* [DevTools Dark Theme](https://chrome.google.com/webstore/detail/devtools-theme-zero-dark/bomhdjeadceaggdgfoefmpeafkjhegbo)
 * [Refined GitHub](https://chrome.google.com/webstore/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf)
 * [Save to Pocket](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj)
+
+## Bash and Git Autocompletion
+
+There's a homebrew formula that sets your shell up to handle git completion:
+
+```
+brew install bash-completion
+```
+
+Now add these lines to your `~/.zshrc` or `~/.bash_profile`:
+
+```
+##
+## enable bash completion
+##
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+```
 
 ## Global npm packages
 
 ```
-yarn global add elm create-react-app trash-cli
+yarn global add create-react-app elm nodemon serve trash-cli typescript
 ```
 
 ## Nuclide <img src="https://nuclide.io/static/logo.png" width="30" />
