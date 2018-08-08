@@ -56,7 +56,6 @@ Must have:
 * [Chrome](https://www.google.com/chrome/)
 * [iTerm2](https://www.iterm2.com/)
 * [Git](http://git-scm.com/) (shipped with the command line tools)
-* [ZSH](https://ohmyz.sh/)
 * [nvm](https://github.com/creationix/nvm)
 * [Yarn](https://yarnpkg.com/)
 
@@ -98,7 +97,7 @@ There's a homebrew formula that sets your shell up to handle git completion:
 brew install bash-completion
 ```
 
-Now add these lines to your `~/.zshrc` or `~/.bash_profile`:
+Now add these lines to your `~/.bash_profile`:
 
 ```
 ##
