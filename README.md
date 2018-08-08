@@ -33,10 +33,19 @@ mkdir ~/workspace
 xcode-select --install
 ```
 
-## [Adding SSH key to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#adding-your-ssh-key-to-the-ssh-agent)
+## Adding your SSH key to the ssh-agent
+
+Add your SSH private key to the ssh-agent and [store your passphrase in the keychain](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#adding-your-ssh-key-to-the-ssh-agent):
 
 ```
 ssh-add -K ~/.ssh/id_rsa
+```
+
+[To have MacOS remember your passphrase](https://superuser.com/questions/1127067/macos-keeps-asking-my-ssh-passphrase-since-i-updated-to-sierra/1158050#1158050), create a new file `~/.ssh/config` and enable the `UseKeychain` option:
+
+```
+Host *
+    UseKeychain yes
 ```
 
 ## Dev Tools
@@ -160,6 +169,7 @@ Place these scripts on your home (`~`) directory:
 
 ## Themes / Color Schemes
 
+* [Dracula](https://draculatheme.com/)
 * [Gloom](https://github.com/hejrobin/gloom) for [Atom](https://atom.io/packages/gloom)
 * [Oceanic Next](https://labs.voronianski.com/oceanic-next-color-scheme/) (with background colour set to `#282c35`) for [Code](https://marketplace.visualstudio.com/items?itemName=naumovs.theme-oceanicnext) and [iTerm](https://github.com/mhartington/oceanic-next-iterm)
 
