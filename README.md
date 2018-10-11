@@ -56,8 +56,8 @@ Must have:
 * [Chrome](https://www.google.com/chrome/)
 * [iTerm2](https://www.iterm2.com/)
 * [Git](http://git-scm.com/) (shipped with the command line tools)
-* [nvm](https://github.com/creationix/nvm)
-* [Yarn](https://yarnpkg.com/)
+* [nvm](https://github.com/creationix/nvm) (install using curl or wget, Brew is not supported)
+* [Yarn](https://yarnpkg.com/) (install using Brew)
 
 Optional:
 
@@ -86,8 +86,8 @@ React Native:
 
 * [React DevTools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 * [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
-* [Refined GitHub](https://chrome.google.com/webstore/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf)
 * [Save to Pocket](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj)
+* [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 
 ## Bash and Git Autocompletion
 
@@ -141,7 +141,6 @@ Install [vscode](https://code.visualstudio.com/) along with the following extens
 * [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 * [Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag)
 * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-* [CSS Comb](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-csscomb)
 * [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
 * [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
@@ -151,7 +150,6 @@ Install [vscode](https://code.visualstudio.com/) along with the following extens
 * [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 * [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 * [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)
-* [React Native Tools](https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native)
 
 Also copy the `vscode-settings.json` file to `~/Library/Application Support/Code/User/settings.json`.
 
