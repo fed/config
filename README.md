@@ -187,40 +187,31 @@ Place these scripts on your home (`~`) directory:
 
 ## Tools I no longer use
 
-### Sublime Text
+### Sublime Text <img src="https://upload.wikimedia.org/wikipedia/en/d/d2/Sublime_Text_3_logo.png" width="30" />
 
 Install [ST3](https://www.sublimetext.com/) along with the following packages via [Package Control](https://packagecontrol.io/):
 
-* [EditorConfig](http://editorconfig.org/)
-* [TerminalView](https://github.com/Wramberg/TerminalView) (display the terminal window within ST3)
 * [Babel](https://github.com/babel/babel-sublime) (ES6+ and JSX syntax highlighting)
-* [SCSS](https://github.com/MarioRicalde/SCSS.tmbundle) (SCSS syntax highlighting)
-* [DocBlockr](https://github.com/spadgos/sublime-jsdocs)
-* [Pretty JSON](https://github.com/dzhibas/SublimePrettyJson)
-* [One Dark Theme](https://github.com/andresmichel/one-dark-theme)
+* [SCSS](https://github.com/MarioRicalde/SCSS.tmbundle) (Sass syntax highlighting)
+* [Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme)
 * [A File Icon](https://github.com/ihodev/a-file-icon)
+* [EditorConfig](http://editorconfig.org/)
+* [Prettier](https://github.com/jonlabelle/SublimeJsPrettier)
 * [SublimeLinter](http://www.sublimelinter.com/)
-* [SublimeLinter-contrib-eslint](https://github.com/roadhump/SublimeLinter-eslint) (dependency: `npm install -g eslint`)
-* [SublimeLinter-contrib-sass-lint](https://github.com/skovhus/SublimeLinter-contrib-sass-lint) (dependency: `npm install -g sass-lint`)
-
-Set up a new **build system for JavaScript** powered by Node.js:
-
-**Tools > Build System > New Build System**, save the file as `JavaScript.sublime-build` within the User directory inside the Sublime Text settings folder with the following content:
-
-```json
-{
-  "cmd": ["/usr/local/bin/node", "$file"],
-  "selector": "source.js"
-}
-```
-
-Just replace `/usr/local/bin/node` with the output of `which node`.
-
-Hit `Cmd + B` to have the Node interpreter run. Note that the file needs to be saved for this to work.
+* [SublimeLinter-eslint](https://github.com/SublimeLinter/SublimeLinter-eslint)
+* [SublimeLinter-flow](https://github.com/SublimeLinter/SublimeLinter-flow)
 
 ### Built-in Local Apache Server
 
-To enable PHP edit this file:
+PHP comes preinstalled on Mac OS X, so no install is required, and you can run PHP immediately by opening the console and typing:
+
+```
+php -S localhost:8000
+```
+
+The folder where you run that command will be treated as the web root.
+
+To enable PHP on the built-in Apache server, edit this file:
 
 ```
 sudo vim /etc/apache2/httpd.conf
@@ -240,13 +231,3 @@ sudo chmod -R a+wx /Library/WebServer/Documents
 ```
 
 Restart Apache (using aliases on `~/.bash_profile`).
-
-### PHP
-
-PHP comes preinstalled on Mac OS X, so no install is required, and you can run PHP immediately by opening the console and typing:
-
-```
-php -S localhost:8000
-```
-
-The folder where you run that command will be treated as the web root.
