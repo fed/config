@@ -15,6 +15,11 @@ This document describes how I set up my development environment on a brand new M
 * Sidebar > Show these items in the sidebar
 * Advanced > Show all filename extensions
 
+## Chrome DevTools Preferences
+
+* Network > Disable cache
+* Hamburguer menu > Settings > Theme > Dark
+
 ## Hostname
 
 ```
@@ -25,12 +30,6 @@ sudo scutil --set HostName <new-host-name>
 
 ```
 mkdir ~/workspace
-```
-
-## Command Line Tools
-
-```
-xcode-select --install
 ```
 
 ## Adding your SSH key to the ssh-agent
@@ -48,6 +47,14 @@ Host *
     UseKeychain yes
 ```
 
+## Command Line Tools
+
+Should be automatically installed by Brew, see below:
+
+```
+xcode-select --install
+```
+
 ## Dev Tools
 
 Must have:
@@ -58,6 +65,7 @@ Must have:
 * [Git](http://git-scm.com/) (shipped with the command line tools)
 * [nvm](https://github.com/creationix/nvm) (install using curl or wget, Brew is not supported)
 * [Yarn](https://yarnpkg.com/) (install using Brew)
+* [oh-my-zsh](https://ohmyz.sh/) (make sure [zsh is installed and updated](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH#zsh), should be shipped with MacOS)
 
 Optional:
 
@@ -77,10 +85,11 @@ React Native:
 
 * [iA Writer](https://ia.net/writer)
 * [Magnet](http://magnet.crowdcafe.com/)
+* [Simplenote](https://simplenote.com/)
 * [Xnip](http://xnipapp.com/)
-* [f.lux](https://justgetflux.com/)
 * [Dr. Unarchiver](https://www.drcleaner.com/dr-unarchiver/)
 * [Flycut](https://github.com/TermiT/Flycut)
+* [f.lux](https://justgetflux.com/)
 
 ## Chrome Extensions
 
@@ -89,49 +98,11 @@ React Native:
 * [Save to Pocket](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj)
 * [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 
-## Bash and Git Autocompletion
-
-There's a homebrew formula that sets your shell up to handle git completion:
-
-```
-brew install bash-completion
-```
-
-Now add these lines to your `~/.bash_profile`:
-
-```
-##
-## enable bash completion
-##
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-  . $(brew --prefix)/etc/bash_completion
-fi
-```
-
 ## Global npm packages
 
 ```
 yarn global add create-react-app elm nodemon serve trash-cli typescript
 ```
-
-## Nuclide <img src="https://nuclide.io/static/logo.png" width="30" />
-
-Install [Atom](https://atom.io/) along with the following packages:
-
-* [Nuclide](https://nuclide.io/docs/editor/setup/#macos__installation) and its [recommended packages](https://nuclide.io/docs/editor/setup/#post-installation__recommended-packages)
-* [ide-flowtype](https://atom.io/packages/ide-flowtype)
-* [autocomplete-paths](https://atom.io/packages/autocomplete-paths)
-* [linter-eslint](https://atom.io/packages/linter-eslint)
-* [linter-stylelint](https://atom.io/packages/linter-stylelint)
-* [editorconfig](https://atom.io/packages/editorconfig)
-* [prettier-atom](https://atom.io/packages/prettier-atom) (do not install Linter when prompted to, Nuclide Code Diagnostics will take care)
-* [css-comb](https://atom.io/packages/css-comb)
-
-Remember to enable *format on save* on both Prettier and CSSComb.
-
-*Note:* for some reason, Flow support is not being shipped with Nuclide by default. That's why we need to install ide-flowtype as well. Make sure to enable "Use the Flow binary included in each project's flow-bin (requires restart)" on the Nuclide settings (can also be toggled on the ide-flowtype package settings).
-
-Editor and package settings can be found [here](./nuclide-config.cson).
 
 ## Visual Studio Code <img src="https://user-images.githubusercontent.com/29654835/27530003-e78876b8-5a13-11e7-8863-83fbdb900f72.png" width="30" />
 
@@ -152,6 +123,26 @@ Install [vscode](https://code.visualstudio.com/) along with the following extens
 * [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)
 
 Also copy the `vscode-settings.json` file to `~/Library/Application Support/Code/User/settings.json`.
+
+
+## Nuclide <img src="https://nuclide.io/static/logo.png" width="30" />
+
+Install [Atom](https://atom.io/) along with the following packages:
+
+* [Nuclide](https://nuclide.io/docs/editor/setup/#macos__installation) and its [recommended packages](https://nuclide.io/docs/editor/setup/#post-installation__recommended-packages)
+* [ide-flowtype](https://atom.io/packages/ide-flowtype)
+* [autocomplete-paths](https://atom.io/packages/autocomplete-paths)
+* [linter-eslint](https://atom.io/packages/linter-eslint)
+* [linter-stylelint](https://atom.io/packages/linter-stylelint)
+* [editorconfig](https://atom.io/packages/editorconfig)
+* [prettier-atom](https://atom.io/packages/prettier-atom) (do not install Linter when prompted to, Nuclide Code Diagnostics will take care)
+* [css-comb](https://atom.io/packages/css-comb)
+
+Remember to enable *format on save* on both Prettier and CSSComb.
+
+*Note:* for some reason, Flow support is not being shipped with Nuclide by default. That's why we need to install ide-flowtype as well. Make sure to enable "Use the Flow binary included in each project's flow-bin (requires restart)" on the Nuclide settings (can also be toggled on the ide-flowtype package settings).
+
+Editor and package settings can be found [here](./nuclide-config.cson).
 
 ## Config Files and Git Scripts
 
@@ -200,6 +191,25 @@ Install [ST3](https://www.sublimetext.com/) along with the following packages vi
 * [SublimeLinter](http://www.sublimelinter.com/)
 * [SublimeLinter-eslint](https://github.com/SublimeLinter/SublimeLinter-eslint)
 * [SublimeLinter-flow](https://github.com/SublimeLinter/SublimeLinter-flow)
+
+## Bash and Git Autocompletion
+
+There's a homebrew formula that sets your shell up to handle git completion:
+
+```
+brew install bash-completion
+```
+
+Now add these lines to your `~/.bash_profile`:
+
+```
+##
+## enable bash completion
+##
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+```
 
 ### Built-in Local Apache Server
 
