@@ -163,12 +163,12 @@ Place these scripts on your home (`~`) directory:
 
 ## Useful WebApps
 
-* Notes across devices: https://simplenote.com/
 * Upload images: https://imgur.com/
 * Upload PDF documents: https://scribd.com/
 * Upload slides: https://speakerdeck.com/
 * Project Management and Agile Boards: https://trello.com/
 * Read later: https://getpocket.com/
+* Notes: https://evernote.com/
 * Lists: https://workflowy.com/
 * Dropbox Paper: https://paper.dropbox.com/
 * Live code sharing: https://codeshare.io/
@@ -191,6 +191,9 @@ Install [ST3](https://www.sublimetext.com/) along with the following packages vi
 * [SublimeLinter](http://www.sublimelinter.com/)
 * [SublimeLinter-eslint](https://github.com/SublimeLinter/SublimeLinter-eslint)
 * [SublimeLinter-flow](https://github.com/SublimeLinter/SublimeLinter-flow)
+* [Sidebar Enhancements](https://github.com/SideBarEnhancements-org/SideBarEnhancements)
+* [GitGutter](https://github.com/jisaacks/GitGutter)
+* [Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter)
 
 ## Bash and Git Autocompletion
 
