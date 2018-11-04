@@ -98,10 +98,23 @@ React Native:
 * [Save to Pocket](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj)
 * [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 
+## Useful WebApps
+
+* Upload images: https://imgur.com/
+* Upload PDF documents: https://scribd.com/
+* Upload slides: https://speakerdeck.com/
+* Project Management and Agile Boards: https://trello.com/
+* Read later: https://getpocket.com/
+* Notes: https://evernote.com/
+* Lists: https://workflowy.com/
+* Dropbox Paper: https://paper.dropbox.com/
+* Live code sharing: https://codeshare.io/
+* Code snippets and online editors: https://codepen.io/, http://v5.jsbin.com/ and https://codesandbox.io/
+
 ## Global npm packages
 
 ```
-yarn global add create-react-app elm nodemon serve trash-cli typescript
+yarn global add create-react-app elm flow-typed nodemon serve trash-cli typescript
 ```
 
 ## Visual Studio Code <img src="https://user-images.githubusercontent.com/29654835/27530003-e78876b8-5a13-11e7-8863-83fbdb900f72.png" width="30" />
@@ -124,7 +137,6 @@ Install [vscode](https://code.visualstudio.com/) along with the following extens
 
 Also copy the `vscode-settings.json` file to `~/Library/Application Support/Code/User/settings.json`.
 
-
 ## Nuclide <img src="https://nuclide.io/static/logo.png" width="30" />
 
 Install [Atom](https://atom.io/) along with the following packages:
@@ -144,6 +156,24 @@ Remember to enable *format on save* on both Prettier and CSSComb.
 
 Editor and package settings can be found [here](./nuclide-config.cson).
 
+### Sublime Text <img src="https://upload.wikimedia.org/wikipedia/en/d/d2/Sublime_Text_3_logo.png" width="30" />
+
+Install [ST3](https://www.sublimetext.com/) along with the following packages via [Package Control](https://packagecontrol.io/):
+
+* [Babel](https://github.com/babel/babel-sublime) (ES6+ and JSX syntax highlighting)
+* [SCSS](https://github.com/MarioRicalde/SCSS.tmbundle) (Sass syntax highlighting)
+* [Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme)
+* [A File Icon](https://github.com/ihodev/a-file-icon)
+* [EditorConfig](http://editorconfig.org/)
+* [Prettier](https://github.com/jonlabelle/SublimeJsPrettier)
+* [CSSComb](https://github.com/csscomb/sublime-csscomb)
+* [SublimeLinter](http://www.sublimelinter.com/)
+* [SublimeLinter-eslint](https://github.com/SublimeLinter/SublimeLinter-eslint)
+* [SublimeLinter-flow](https://github.com/SublimeLinter/SublimeLinter-flow)
+* [Sidebar Enhancements](https://github.com/SideBarEnhancements-org/SideBarEnhancements)
+* [GitGutter](https://github.com/jisaacks/GitGutter)
+* [Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter)
+
 ## Config Files and Git Scripts
 
 Place these scripts on your home (`~`) directory:
@@ -160,40 +190,6 @@ Place these scripts on your home (`~`) directory:
 * [Dracula](https://draculatheme.com/)
 * [Gloom](https://github.com/hejrobin/gloom) for [Atom](https://atom.io/packages/gloom)
 * [Oceanic Next](https://labs.voronianski.com/oceanic-next-color-scheme/) (with background colour set to `#282c35`) for [Code](https://marketplace.visualstudio.com/items?itemName=naumovs.theme-oceanicnext) and [iTerm](https://github.com/mhartington/oceanic-next-iterm)
-
-## Useful WebApps
-
-* Upload images: https://imgur.com/
-* Upload PDF documents: https://scribd.com/
-* Upload slides: https://speakerdeck.com/
-* Project Management and Agile Boards: https://trello.com/
-* Read later: https://getpocket.com/
-* Notes: https://evernote.com/
-* Lists: https://workflowy.com/
-* Dropbox Paper: https://paper.dropbox.com/
-* Live code sharing: https://codeshare.io/
-* Code snippets and online editors: https://codepen.io/, http://v5.jsbin.com/ and https://codesandbox.io/
-
----
-
-## Tools I no longer use
-
-### Sublime Text <img src="https://upload.wikimedia.org/wikipedia/en/d/d2/Sublime_Text_3_logo.png" width="30" />
-
-Install [ST3](https://www.sublimetext.com/) along with the following packages via [Package Control](https://packagecontrol.io/):
-
-* [Babel](https://github.com/babel/babel-sublime) (ES6+ and JSX syntax highlighting)
-* [SCSS](https://github.com/MarioRicalde/SCSS.tmbundle) (Sass syntax highlighting)
-* [Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme)
-* [A File Icon](https://github.com/ihodev/a-file-icon)
-* [EditorConfig](http://editorconfig.org/)
-* [Prettier](https://github.com/jonlabelle/SublimeJsPrettier)
-* [SublimeLinter](http://www.sublimelinter.com/)
-* [SublimeLinter-eslint](https://github.com/SublimeLinter/SublimeLinter-eslint)
-* [SublimeLinter-flow](https://github.com/SublimeLinter/SublimeLinter-flow)
-* [Sidebar Enhancements](https://github.com/SideBarEnhancements-org/SideBarEnhancements)
-* [GitGutter](https://github.com/jisaacks/GitGutter)
-* [Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter)
 
 ## Bash and Git Autocompletion
 
