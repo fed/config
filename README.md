@@ -85,7 +85,6 @@ React Native:
 
 * [iA Writer](https://ia.net/writer)
 * [Magnet](http://magnet.crowdcafe.com/)
-* [Simplenote](https://simplenote.com/)
 * [Xnip](http://xnipapp.com/)
 * [Dr. Unarchiver](https://www.drcleaner.com/dr-unarchiver/)
 * [Flycut](https://github.com/TermiT/Flycut)
@@ -142,7 +141,6 @@ Also copy the `vscode-settings.json` file to `~/Library/Application Support/Code
 Install [Atom](https://atom.io/) along with the following packages:
 
 * [Nuclide](https://nuclide.io/docs/editor/setup/#macos__installation) and its [recommended packages](https://nuclide.io/docs/editor/setup/#post-installation__recommended-packages)
-* [ide-flowtype](https://atom.io/packages/ide-flowtype)
 * [autocomplete-paths](https://atom.io/packages/autocomplete-paths)
 * [linter-eslint](https://atom.io/packages/linter-eslint)
 * [linter-stylelint](https://atom.io/packages/linter-stylelint)
@@ -150,9 +148,9 @@ Install [Atom](https://atom.io/) along with the following packages:
 * [prettier-atom](https://atom.io/packages/prettier-atom) (do not install Linter when prompted to, Nuclide Code Diagnostics will take care)
 * [css-comb](https://atom.io/packages/css-comb)
 
-Remember to enable *format on save* on both Prettier and CSSComb.
+Remember to enable Prettier's *format on save* option.
 
-*Note:* for some reason, Flow support is not being shipped with Nuclide by default. That's why we need to install ide-flowtype as well. Make sure to enable "Use the Flow binary included in each project's flow-bin (requires restart)" on the Nuclide settings (can also be toggled on the ide-flowtype package settings).
+Also, make sure to enable "Use the Flow binary included in each project's flow-bin (requires restart)" under Language Settings > Flow on the Nuclide settings.
 
 Editor and package settings can be found [here](./nuclide-config.cson).
 
@@ -187,9 +185,9 @@ Place these scripts on your home (`~`) directory:
 
 ## Themes / Color Schemes
 
+* [Oceanic Next](https://labs.voronianski.com/oceanic-next-color-scheme/) (with background colour set to `#282c35`) for [Code](https://marketplace.visualstudio.com/items?itemName=naumovs.theme-oceanicnext) and [iTerm](https://github.com/mhartington/oceanic-next-iterm)
 * [Dracula](https://draculatheme.com/)
 * [Gloom](https://github.com/hejrobin/gloom) for [Atom](https://atom.io/packages/gloom)
-* [Oceanic Next](https://labs.voronianski.com/oceanic-next-color-scheme/) (with background colour set to `#282c35`) for [Code](https://marketplace.visualstudio.com/items?itemName=naumovs.theme-oceanicnext) and [iTerm](https://github.com/mhartington/oceanic-next-iterm)
 
 ## Bash and Git Autocompletion
 
