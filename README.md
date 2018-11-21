@@ -47,21 +47,13 @@ Host *
     UseKeychain yes
 ```
 
-## Command Line Tools
-
-Should be automatically installed by Brew, see below:
-
-```
-xcode-select --install
-```
-
 ## Dev Tools
 
 Must have:
 
-* [Homebrew](https://brew.sh/)
 * [Chrome](https://www.google.com/chrome/)
 * [iTerm2](https://www.iterm2.com/)
+* [Homebrew](https://brew.sh/)
 * [Git](http://git-scm.com/) (shipped with the command line tools)
 * [nvm](https://github.com/creationix/nvm) (install using curl or wget, Brew is not supported)
 * [Yarn](https://yarnpkg.com/) (install using Brew)
@@ -80,6 +72,14 @@ React Native:
 
 * [Watchman](https://facebook.github.io/watchman/) (make sure it's in your `$PATH` environment variable)
 * [React Native Debugger](https://github.com/jhen0409/react-native-debugger)
+
+## Command Line Tools
+
+Should be automatically installed by Brew:
+
+```
+xcode-select --install
+```
 
 ## Misc (non-dev) Tools
 
@@ -113,7 +113,7 @@ React Native:
 ## Global npm packages
 
 ```
-yarn global add create-react-app elm flow-typed nodemon serve trash-cli typescript
+yarn global add trash-cli
 ```
 
 ## Visual Studio Code <img src="https://user-images.githubusercontent.com/29654835/27530003-e78876b8-5a13-11e7-8863-83fbdb900f72.png" width="30" />
@@ -185,9 +185,9 @@ Place these scripts on your home (`~`) directory:
 
 ## Themes / Color Schemes
 
-* [Oceanic Next](https://labs.voronianski.com/oceanic-next-color-scheme/) (with background colour set to `#282c35`) for [Code](https://marketplace.visualstudio.com/items?itemName=naumovs.theme-oceanicnext) and [iTerm](https://github.com/mhartington/oceanic-next-iterm)
+* [Oceanic Next](https://labs.voronianski.com/oceanic-next-color-scheme/) (with background colour set to `#282c35`)
 * [Dracula](https://draculatheme.com/)
-* [Gloom](https://github.com/hejrobin/gloom) for [Atom](https://atom.io/packages/gloom)
+* [Gloom](https://github.com/hejrobin/gloom)
 
 ## Bash and Git Autocompletion
 
