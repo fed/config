@@ -53,11 +53,12 @@ Must have:
 
 * [Chrome](https://www.google.com/chrome/)
 * [iTerm2](https://www.iterm2.com/)
-* [Homebrew](https://brew.sh/)
-* [Git](http://git-scm.com/) (shipped with the command line tools)
+* [Homebrew](https://brew.sh/), which also installs:
+  * [Command Line Tools](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
+  * [Git](http://git-scm.com/)
+* [oh-my-zsh](https://ohmyz.sh/) (make sure [zsh is installed and updated](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH#zsh), should be shipped with MacOS)
 * [nvm](https://github.com/creationix/nvm) (install using curl or wget, Brew is not supported)
 * [Yarn](https://yarnpkg.com/) (install using Brew)
-* [oh-my-zsh](https://ohmyz.sh/) (make sure [zsh is installed and updated](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH#zsh), should be shipped with MacOS)
 
 Optional:
 
@@ -97,19 +98,6 @@ xcode-select --install
 * [Save to Pocket](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj)
 * [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 
-## Useful WebApps
-
-* Upload images: https://imgur.com/
-* Upload PDF documents: https://scribd.com/
-* Upload slides: https://speakerdeck.com/
-* Project Management and Agile Boards: https://trello.com/
-* Read later: https://getpocket.com/
-* Notes: https://evernote.com/
-* Lists: https://workflowy.com/
-* Dropbox Paper: https://paper.dropbox.com/
-* Live code sharing: https://codeshare.io/
-* Code snippets and online editors: https://codepen.io/, http://v5.jsbin.com/ and https://codesandbox.io/
-
 ## Global npm packages
 
 ```
@@ -124,7 +112,6 @@ Install [vscode](https://code.visualstudio.com/) along with the following extens
 * [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 * [Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag)
 * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-* [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
 * [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 * [File Icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)
@@ -133,8 +120,40 @@ Install [vscode](https://code.visualstudio.com/) along with the following extens
 * [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 * [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 * [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)
+* [Sublime Text Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
+* [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 
 Also copy the `vscode-settings.json` file to `~/Library/Application Support/Code/User/settings.json`.
+
+## Config Files and Git Scripts
+
+Place these dotfiles in your home (`~`) directory:
+
+* [`.zshrc`](./.zshrc)
+* [`.gitconfig`](./.gitconfig)
+* [`.gitignore`](./.gitignore) (ignore OS/IDE-specific files globally)
+* [`.prettierrc`](./.prettierrc)
+* [`.csscomb.json`](./.csscomb.json)
+
+## Archive
+
+### Sublime Text <img src="https://upload.wikimedia.org/wikipedia/en/d/d2/Sublime_Text_3_logo.png" width="30" />
+
+Install [ST3](https://www.sublimetext.com/) along with the following packages via [Package Control](https://packagecontrol.io/):
+
+* [Babel](https://github.com/babel/babel-sublime) (ES6+ and JSX syntax highlighting)
+* [SCSS](https://github.com/MarioRicalde/SCSS.tmbundle) (Sass syntax highlighting)
+* [Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme)
+* [A File Icon](https://github.com/ihodev/a-file-icon)
+* [EditorConfig](http://editorconfig.org/)
+* [Prettier](https://github.com/jonlabelle/SublimeJsPrettier)
+* [CSSComb](https://github.com/csscomb/sublime-csscomb)
+* [SublimeLinter](http://www.sublimelinter.com/)
+* [SublimeLinter-eslint](https://github.com/SublimeLinter/SublimeLinter-eslint)
+* [SublimeLinter-flow](https://github.com/SublimeLinter/SublimeLinter-flow)
+* [GitGutter](https://github.com/jisaacks/GitGutter)
+* [Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter)
+* [Sidebar Enhancements](https://github.com/SideBarEnhancements-org/SideBarEnhancements)
 
 ## Nuclide <img src="https://nuclide.io/static/logo.png" width="30" />
 
@@ -154,44 +173,9 @@ Also, make sure to enable "Use the Flow binary included in each project's flow-b
 
 Editor and package settings can be found [here](./nuclide-config.cson).
 
-### Sublime Text <img src="https://upload.wikimedia.org/wikipedia/en/d/d2/Sublime_Text_3_logo.png" width="30" />
+### Bash and Git Autocompletion
 
-Install [ST3](https://www.sublimetext.com/) along with the following packages via [Package Control](https://packagecontrol.io/):
-
-* [Babel](https://github.com/babel/babel-sublime) (ES6+ and JSX syntax highlighting)
-* [SCSS](https://github.com/MarioRicalde/SCSS.tmbundle) (Sass syntax highlighting)
-* [Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme)
-* [A File Icon](https://github.com/ihodev/a-file-icon)
-* [EditorConfig](http://editorconfig.org/)
-* [Prettier](https://github.com/jonlabelle/SublimeJsPrettier)
-* [CSSComb](https://github.com/csscomb/sublime-csscomb)
-* [SublimeLinter](http://www.sublimelinter.com/)
-* [SublimeLinter-eslint](https://github.com/SublimeLinter/SublimeLinter-eslint)
-* [SublimeLinter-flow](https://github.com/SublimeLinter/SublimeLinter-flow)
-* [Sidebar Enhancements](https://github.com/SideBarEnhancements-org/SideBarEnhancements)
-* [GitGutter](https://github.com/jisaacks/GitGutter)
-* [Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter)
-
-## Config Files and Git Scripts
-
-Place these scripts on your home (`~`) directory:
-
-* [`.bash_profile`](./.bash_profile)
-* [`.gitconfig`](./.gitconfig)
-* [`.gitignore`](./.gitignore) (ignore OS/IDE-specific files globally)
-* [`git-prompt.sh`](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh) (see repository status in your prompt)
-* [`git-completion.bash`](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash) (Git completion support)
-* [`.csscomb.json`](./.csscomb.json)
-
-## Themes / Color Schemes
-
-* [Oceanic Next](https://labs.voronianski.com/oceanic-next-color-scheme/) (with background colour set to `#282c35`)
-* [Dracula](https://draculatheme.com/)
-* [Gloom](https://github.com/hejrobin/gloom)
-
-## Bash and Git Autocompletion
-
-There's a homebrew formula that sets your shell up to handle git completion:
+There's a Homebrew formula that sets your shell up to handle Git completion:
 
 ```
 brew install bash-completion
@@ -207,6 +191,12 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
 ```
+
+## Config Files and Git Scripts
+
+* [`.bash_profile`](./.bash_profile)
+* [`git-prompt.sh`](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh) (see repository status in your prompt)
+* [`git-completion.bash`](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash) (Git completion support)
 
 ### Built-in Local Apache Server
 
@@ -238,3 +228,23 @@ sudo chmod -R a+wx /Library/WebServer/Documents
 ```
 
 Restart Apache (using aliases on `~/.bash_profile`).
+
+## Themes / Color Schemes
+
+* [Oceanic Next](https://labs.voronianski.com/oceanic-next-color-scheme/) (with background colour set to `#282c35`)
+* [Dracula](https://draculatheme.com/)
+* [Gloom](https://github.com/hejrobin/gloom)
+
+## Useful WebApps
+
+* Upload images: https://imgur.com/
+* Upload PDF documents: https://scribd.com/
+* Upload slides: https://speakerdeck.com/
+* Project Management and Agile Boards: https://trello.com/
+* Read later: https://getpocket.com/
+* Notes: https://evernote.com/
+* Lists: https://workflowy.com/
+* Dropbox Paper: https://paper.dropbox.com/
+* Live code sharing: https://codeshare.io/
+* Code snippets and online editors: https://codepen.io/, http://v5.jsbin.com/ and https://codesandbox.io/
+
