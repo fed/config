@@ -74,14 +74,6 @@ React Native:
 * [Watchman](https://facebook.github.io/watchman/) (make sure it's in your `$PATH` environment variable)
 * [React Native Debugger](https://github.com/jhen0409/react-native-debugger)
 
-## Command Line Tools
-
-Should be automatically installed by Brew:
-
-```
-xcode-select --install
-```
-
 ## Misc (non-dev) Tools
 
 * [iA Writer](https://ia.net/writer)
@@ -132,7 +124,6 @@ Place these dotfiles in your home (`~`) directory:
 * [`.zshrc`](./.zshrc)
 * [`.gitconfig`](./.gitconfig)
 * [`.gitignore`](./.gitignore) (ignore OS/IDE-specific files globally)
-* [`.prettierrc`](./.prettierrc)
 * [`.csscomb.json`](./.csscomb.json)
 
 ## Archive
@@ -247,4 +238,3 @@ Restart Apache (using aliases on `~/.bash_profile`).
 * Dropbox Paper: https://paper.dropbox.com/
 * Live code sharing: https://codeshare.io/
 * Code snippets and online editors: https://codepen.io/, http://v5.jsbin.com/ and https://codesandbox.io/
-
