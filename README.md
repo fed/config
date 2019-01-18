@@ -145,6 +145,7 @@ Install [ST3](https://www.sublimetext.com/) along with the following packages vi
 * [GitGutter](https://github.com/jisaacks/GitGutter)
 * [Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter)
 * [Sidebar Enhancements](https://github.com/SideBarEnhancements-org/SideBarEnhancements)
+* [GitLink](https://github.com/rscherf/GitLink)
 
 ## Nuclide <img src="https://nuclide.io/static/logo.png" width="30" />
 
