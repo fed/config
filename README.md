@@ -4,7 +4,6 @@ This document describes how I set up my development environment on a brand new M
 
 ## System Preferences
 
-* General > Use dark menu bar and dock
 * Dock > Automatically hide and show the Dock
 * Notifications > Turn on "Do Not Disturb" when mirroring to TVs and projectors
 * Siri > Disable Ask Siri
@@ -67,7 +66,6 @@ Optional:
 * [Postman](https://www.getpostman.com/)
 * [CyberDuck](https://cyberduck.io/)
 * [Sequel Pro](http://www.sequelpro.com/)
-* [Fork](https://git-fork.com/) (useful for going through diffs)
 
 React Native:
 
@@ -96,6 +94,35 @@ React Native:
 yarn global add trash-cli
 ```
 
+### Sublime Text/Merge <img src="https://www.sublimehq.com/images/sublime_text.png" width="35" /> <img src="https://www.sublimehq.com/images/sublime_merge.png" width="35" />
+
+Install [ST3](https://www.sublimetext.com/) along with [Sublime Merge](https://www.sublimemerge.com/) and the following packages via [Package Control](https://packagecontrol.io/):
+
+* [Babel](https://github.com/babel/babel-sublime) (ES6+ and JSX syntax highlighting)
+* [Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme)
+* [A File Icon](https://github.com/ihodev/a-file-icon)
+* [EditorConfig](http://editorconfig.org/)
+* [Prettier](https://github.com/jonlabelle/SublimeJsPrettier)
+* [SublimeLinter](http://www.sublimelinter.com/)
+* [SublimeLinter-eslint](https://github.com/SublimeLinter/SublimeLinter-eslint)
+* [SublimeLinter-flow](https://github.com/SublimeLinter/SublimeLinter-flow)
+* [Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter)
+* [GitLink](https://github.com/rscherf/GitLink)
+* [Sidebar Enhancements](https://github.com/SideBarEnhancements-org/SideBarEnhancements)
+* [CSSComb](https://github.com/csscomb/sublime-csscomb)
+* [SCSS](https://github.com/MarioRicalde/SCSS.tmbundle) (Sass syntax highlighting)
+
+## Config Files and Git Scripts
+
+Place these dotfiles in your home (`~`) directory:
+
+* [`.zshrc`](./.zshrc)
+* [`.gitconfig`](./.gitconfig)
+* [`.gitignore`](./.gitignore) (ignore OS/IDE-specific files globally)
+* [`.csscomb.json`](./.csscomb.json)
+
+## Archive
+
 ## Visual Studio Code <img src="https://user-images.githubusercontent.com/29654835/27530003-e78876b8-5a13-11e7-8863-83fbdb900f72.png" width="30" />
 
 Install [vscode](https://code.visualstudio.com/) along with the following extensions:
@@ -116,36 +143,6 @@ Install [vscode](https://code.visualstudio.com/) along with the following extens
 * [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 
 Also copy the `vscode-settings.json` file to `~/Library/Application Support/Code/User/settings.json`.
-
-## Config Files and Git Scripts
-
-Place these dotfiles in your home (`~`) directory:
-
-* [`.zshrc`](./.zshrc)
-* [`.gitconfig`](./.gitconfig)
-* [`.gitignore`](./.gitignore) (ignore OS/IDE-specific files globally)
-* [`.csscomb.json`](./.csscomb.json)
-
-## Archive
-
-### Sublime Text <img src="https://upload.wikimedia.org/wikipedia/en/d/d2/Sublime_Text_3_logo.png" width="30" />
-
-Install [ST3](https://www.sublimetext.com/) along with the following packages via [Package Control](https://packagecontrol.io/):
-
-* [Babel](https://github.com/babel/babel-sublime) (ES6+ and JSX syntax highlighting)
-* [SCSS](https://github.com/MarioRicalde/SCSS.tmbundle) (Sass syntax highlighting)
-* [Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme)
-* [A File Icon](https://github.com/ihodev/a-file-icon)
-* [EditorConfig](http://editorconfig.org/)
-* [Prettier](https://github.com/jonlabelle/SublimeJsPrettier)
-* [CSSComb](https://github.com/csscomb/sublime-csscomb)
-* [SublimeLinter](http://www.sublimelinter.com/)
-* [SublimeLinter-eslint](https://github.com/SublimeLinter/SublimeLinter-eslint)
-* [SublimeLinter-flow](https://github.com/SublimeLinter/SublimeLinter-flow)
-* [GitGutter](https://github.com/jisaacks/GitGutter)
-* [Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter)
-* [Sidebar Enhancements](https://github.com/SideBarEnhancements-org/SideBarEnhancements)
-* [GitLink](https://github.com/rscherf/GitLink)
 
 ## Nuclide <img src="https://nuclide.io/static/logo.png" width="30" />
 
