@@ -111,6 +111,7 @@ Install [ST3](https://www.sublimetext.com/) along with [Sublime Merge](https://w
 * [Sidebar Enhancements](https://github.com/SideBarEnhancements-org/SideBarEnhancements)
 * [CSSComb](https://github.com/csscomb/sublime-csscomb)
 * [SCSS](https://github.com/MarioRicalde/SCSS.tmbundle) (Sass syntax highlighting)
+* [Git Blame on status bar](https://gist.github.com/rodrigobdz/dbcdcaac6c5af7276c63ec920ba894b0)
 
 ## Config Files and Git Scripts
 
