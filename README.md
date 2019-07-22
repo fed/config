@@ -16,8 +16,8 @@ This document describes how I set up my development environment on a brand new M
 
 ## Chrome DevTools Preferences
 
-* Network > Disable cache
-* Hamburguer menu > Settings > Theme > Dark
+* Settings > Preferences > Network > Disable cache (while DevTools is open)
+* Settings > Preferences > Appearance > Theme: Dark
 
 ## Hostname
 
@@ -76,6 +76,7 @@ React Native:
 
 * [iA Writer](https://ia.net/writer)
 * [Magnet](http://magnet.crowdcafe.com/)
+* [Dato](https://sindresorhus.com/dato)
 * [Xnip](http://xnipapp.com/)
 * [Dr. Unarchiver](https://www.drcleaner.com/dr-unarchiver/)
 * [Flycut](https://github.com/TermiT/Flycut)
@@ -87,6 +88,11 @@ React Native:
 * [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
 * [Save to Pocket](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj)
 * [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+* [Redirector](https://chrome.google.com/webstore/detail/redirector/ocgpenflpmgnfapjedencafcfakcekcd)
+* [axe Accessibility Testing](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd)
+* [ARC Toolkit: Accessibility testing tools from The Paciello Group](https://chrome.google.com/webstore/detail/arc-toolkit/chdkkkccnlfncngelccgbgfmjebmkmce)
+* [headingsMap: show and audit headings structure](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi)
+* [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm)
 
 ## Global npm packages
 
