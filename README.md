@@ -68,6 +68,7 @@ Optional:
 * [Postman](https://www.getpostman.com/)
 * [CyberDuck](https://cyberduck.io/)
 * [Sequel Pro](http://www.sequelpro.com/)
+* [PSequel](http://www.psequel.com/)
 
 React Native:
 
@@ -99,7 +100,7 @@ React Native:
 ## Global npm packages
 
 ```
-yarn global add trash-cli
+yarn global add madge nodemon prettier serve trash-cli
 ```
 
 ### Sublime Text/Merge <img src="https://www.sublimehq.com/images/sublime_text.png" width="35" /> <img src="https://www.sublimehq.com/images/sublime_merge.png" width="35" />
