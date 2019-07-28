@@ -50,7 +50,9 @@ Host *
 
 Must have:
 
-* [Chrome](https://www.google.com/chrome/)
+* [Chrome Dev](https://www.google.com/chrome/dev/)
+* [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
+* [Safari Technology Preview](https://developer.apple.com/safari/technology-preview/)
 * [iTerm2](https://www.iterm2.com/)
 * [Homebrew](https://brew.sh/), which also installs:
   * [Command Line Tools](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
