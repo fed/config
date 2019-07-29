@@ -53,7 +53,7 @@ Must have:
 * [Chrome Dev](https://www.google.com/chrome/dev/)
 * [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
 * [Safari Technology Preview](https://developer.apple.com/safari/technology-preview/)
-* [iTerm2](https://www.iterm2.com/)
+* [iTerm2](https://www.iterm2.com/) with this [colour preset](https://draculatheme.com/iterm/)
 * [Homebrew](https://brew.sh/), which also installs:
   * [Command Line Tools](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
   * [Git](http://git-scm.com/)
