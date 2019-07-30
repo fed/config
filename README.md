@@ -57,9 +57,10 @@ Must have:
 * [Homebrew](https://brew.sh/), which also installs:
   * [Command Line Tools](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
   * [Git](http://git-scm.com/)
-* [oh-my-zsh](https://ohmyz.sh/) (make sure [zsh is installed and updated](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH#zsh), should be shipped with MacOS)
+* [oh-my-zsh](https://ohmyz.sh/) (make sure [zsh is installed and updated](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH#zsh), should be shipped with MacOS) and [zsh-syntax-highlighting
+](https://github.com/zsh-users/zsh-syntax-highlighting)
 * [nvm](https://github.com/creationix/nvm) (install using curl or wget, Brew is not supported)
-* [Yarn](https://yarnpkg.com/) (install using Brew)
+* [Yarn](https://yarnpkg.com/) (install using Brew) (make sure to install after node/npm are installed using nvm)
 
 Optional:
 
