@@ -60,7 +60,7 @@ Must have:
 * [oh-my-zsh](https://ohmyz.sh/) (make sure [zsh is installed and updated](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH#zsh), should be shipped with MacOS) and [zsh-syntax-highlighting
 ](https://github.com/zsh-users/zsh-syntax-highlighting)
 * [nvm](https://github.com/creationix/nvm) (install using curl or wget, Brew is not supported)
-* [Yarn](https://yarnpkg.com/) (install using Brew) (make sure to install after node/npm are installed using nvm)
+* [Yarn](https://yarnpkg.com/) (install using Brew) (make sure to install **after** node/npm are installed using nvm)
 
 Optional:
 
@@ -123,17 +123,6 @@ Install [ST3](https://www.sublimetext.com/) along with [Sublime Merge](https://w
 * [SCSS](https://github.com/MarioRicalde/SCSS.tmbundle) (Sass syntax highlighting)
 * [Git Blame on status bar](https://gist.github.com/rodrigobdz/dbcdcaac6c5af7276c63ec920ba894b0)
 
-## Config Files and Git Scripts
-
-Place these dotfiles in your home (`~`) directory:
-
-* [`.zshrc`](./.zshrc)
-* [`.gitconfig`](./.gitconfig)
-* [`.gitignore`](./.gitignore) (ignore OS/IDE-specific files globally)
-* [`.csscomb.json`](./.csscomb.json)
-
-## Archive
-
 ## Visual Studio Code <img src="https://user-images.githubusercontent.com/29654835/27530003-e78876b8-5a13-11e7-8863-83fbdb900f72.png" width="30" />
 
 Install [vscode](https://code.visualstudio.com/) along with the following extensions:
@@ -155,7 +144,18 @@ Install [vscode](https://code.visualstudio.com/) along with the following extens
 
 Also copy the `vscode-settings.json` file to `~/Library/Application Support/Code/User/settings.json`.
 
-## Nuclide <img src="https://nuclide.io/static/logo.png" width="30" />
+## Config Files and Git Scripts
+
+Place these dotfiles in your home (`~`) directory:
+
+* [`.zshrc`](./.zshrc)
+* [`.gitconfig`](./.gitconfig)
+* [`.gitignore`](./.gitignore) (ignore OS/IDE-specific files globally)
+* [`.csscomb.json`](./.csscomb.json)
+
+## Archive
+
+### Nuclide <img src="https://nuclide.io/static/logo.png" width="30" />
 
 Install [Atom](https://atom.io/) along with the following packages:
 
@@ -192,7 +192,7 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 ```
 
-## Config Files and Git Scripts
+### Config Files and Git Scripts
 
 * [`.bash_profile`](./.bash_profile)
 * [`git-prompt.sh`](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh) (see repository status in your prompt)
@@ -229,7 +229,7 @@ sudo chmod -R a+wx /Library/WebServer/Documents
 
 Restart Apache (using aliases on `~/.bash_profile`).
 
-## Themes / Color Schemes
+### Themes / Color Schemes
 
 * [Oceanic Next](https://labs.voronianski.com/oceanic-next-color-scheme/) (with background colour set to `#282c35`)
 * [Dracula](https://draculatheme.com/)
