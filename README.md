@@ -117,6 +117,7 @@ Install [ST3](https://www.sublimetext.com/) along with [Sublime Merge](https://w
 * [SublimeLinter](http://www.sublimelinter.com/)
 * [SublimeLinter-eslint](https://github.com/SublimeLinter/SublimeLinter-eslint)
 * [SublimeLinter-flow](https://github.com/SublimeLinter/SublimeLinter-flow)
+* [TypeScript](https://github.com/Microsoft/TypeScript-Sublime-Plugin)
 * [Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter)
 * [GitLink](https://github.com/rscherf/GitLink)
 * [Sidebar Enhancements](https://github.com/SideBarEnhancements-org/SideBarEnhancements)
