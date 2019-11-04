@@ -70,6 +70,7 @@ Optional:
 * [CyberDuck](https://cyberduck.io/)
 * [Sequel Pro](http://www.sequelpro.com/)
 * [PSequel](http://www.psequel.com/)
+* [bat](https://github.com/sharkdp/bat)
 
 React Native:
 
