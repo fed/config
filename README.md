@@ -83,6 +83,7 @@ React Native:
 * [Magnet](http://magnet.crowdcafe.com/)
 * [Dato](https://sindresorhus.com/dato)
 * [Xnip](http://xnipapp.com/)
+* [TinyNotepad](https://tinyapps.de/)
 * [Dr. Unarchiver](https://www.drcleaner.com/dr-unarchiver/)
 * [Flycut](https://github.com/TermiT/Flycut)
 * [f.lux](https://justgetflux.com/)
