@@ -70,7 +70,13 @@ Optional:
 * [CyberDuck](https://cyberduck.io/)
 * [Sequel Pro](http://www.sequelpro.com/)
 * [PSequel](http://www.psequel.com/)
+
+CLI tools: (more info [here](https://remysharp.com/2018/08/23/cli-improved))
+
+* [fd](https://github.com/sharkdp/fd)
 * [bat](https://github.com/sharkdp/bat)
+* [fzf](https://github.com/junegunn/fzf)
+* [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
 
 React Native:
 
