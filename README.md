@@ -88,10 +88,10 @@ React Native:
 * [iA Writer](https://ia.net/writer)
 * [Magnet](http://magnet.crowdcafe.com/)
 * [Dato](https://sindresorhus.com/dato)
+* [Pasta](https://getpasta.com/)
 * [Xnip](http://xnipapp.com/)
 * [TinyNotepad](https://tinyapps.de/)
 * [Dr. Unarchiver](https://www.drcleaner.com/dr-unarchiver/)
-* [Flycut](https://github.com/TermiT/Flycut)
 * [f.lux](https://justgetflux.com/)
 
 ## Chrome Extensions
