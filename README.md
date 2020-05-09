@@ -134,6 +134,12 @@ Install [vscode](https://code.visualstudio.com/) along with the following extens
 * [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)
 * [Sublime Text Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
 * [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+* [Git Blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)
+* [Open in GitHub/Bitbucket](https://marketplace.visualstudio.com/items?itemName=ziyasal.vscode-open-in-github)
+* [Open in Sublime Merge](https://marketplace.visualstudio.com/items?itemName=morrislaptop.vscode-open-in-sublime-merge)
+* [GitHub Plus Theme](https://marketplace.visualstudio.com/items?itemName=thenikso.github-plus-theme)
+* [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)
+* [Oceanic Next (Sublime Babel)](https://marketplace.visualstudio.com/items?itemName=gnhuy91.theme-oceanicnext-sublime)
 
 Also copy the `vscode-settings.json` file to `~/Library/Application Support/Code/User/settings.json`.
 
