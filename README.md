@@ -102,37 +102,19 @@ React Native:
 * [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 * [Redirector](https://chrome.google.com/webstore/detail/redirector/ocgpenflpmgnfapjedencafcfakcekcd)
 * [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa)
+
+Accessibility tools:
+
 * [axe Accessibility Testing](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd)
-* [ARC Toolkit: Accessibility testing tools from The Paciello Group](https://chrome.google.com/webstore/detail/arc-toolkit/chdkkkccnlfncngelccgbgfmjebmkmce)
+* [ARC Toolkit](https://chrome.google.com/webstore/detail/arc-toolkit/chdkkkccnlfncngelccgbgfmjebmkmce)
 * [tota11y](https://chrome.google.com/webstore/detail/tota11y-plugin-from-khan/oedofneiplgibimfkccchnimiadcmhpe?hl=en)
-* [headingsMap: show and audit headings structure](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi)
-* [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm)
+* [headingsMap](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi)
 
 ## Global npm packages
 
 ```
 yarn global add madge nodemon prettier serve trash-cli
 ```
-
-### Sublime Text/Merge <img src="https://www.sublimehq.com/images/sublime_text.png" width="35" /> <img src="https://www.sublimehq.com/images/sublime_merge.png" width="35" />
-
-Install [ST3](https://www.sublimetext.com/) along with [Sublime Merge](https://www.sublimemerge.com/) and the following packages via [Package Control](https://packagecontrol.io/):
-
-* [Babel](https://github.com/babel/babel-sublime) (ES6+ and JSX syntax highlighting)
-* [Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme)
-* [A File Icon](https://github.com/ihodev/a-file-icon)
-* [EditorConfig](http://editorconfig.org/)
-* [Prettier](https://github.com/jonlabelle/SublimeJsPrettier)
-* [SublimeLinter](http://www.sublimelinter.com/)
-* [SublimeLinter-eslint](https://github.com/SublimeLinter/SublimeLinter-eslint)
-* [SublimeLinter-flow](https://github.com/SublimeLinter/SublimeLinter-flow)
-* [TypeScript](https://github.com/Microsoft/TypeScript-Sublime-Plugin)
-* [Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter)
-* [GitLink](https://github.com/rscherf/GitLink)
-* [Sidebar Enhancements](https://github.com/SideBarEnhancements-org/SideBarEnhancements)
-* [CSSComb](https://github.com/csscomb/sublime-csscomb)
-* [SCSS](https://github.com/MarioRicalde/SCSS.tmbundle) (Sass syntax highlighting)
-* [Git Blame on status bar](https://gist.github.com/rodrigobdz/dbcdcaac6c5af7276c63ec920ba894b0)
 
 ## Visual Studio Code <img src="https://user-images.githubusercontent.com/29654835/27530003-e78876b8-5a13-11e7-8863-83fbdb900f72.png" width="30" />
 
@@ -165,6 +147,27 @@ Place these dotfiles in your home (`~`) directory:
 * [`.csscomb.json`](./.csscomb.json)
 
 ## Archive
+
+### Sublime Text/Merge <img src="https://www.sublimehq.com/images/sublime_text.png" width="35" /> <img src="https://www.sublimehq.com/images/sublime_merge.png" width="35" />
+
+Install [ST3](https://www.sublimetext.com/) along with [Sublime Merge](https://www.sublimemerge.com/) and the following packages via [Package Control](https://packagecontrol.io/):
+
+* [Babel](https://github.com/babel/babel-sublime) (ES6+ and JSX syntax highlighting)
+* [Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme)
+* [A File Icon](https://github.com/ihodev/a-file-icon)
+* [EditorConfig](http://editorconfig.org/)
+* [JsPrettier](https://github.com/jonlabelle/SublimeJsPrettier)
+* [SublimeLinter](http://www.sublimelinter.com/)
+* [SublimeLinter-eslint](https://github.com/SublimeLinter/SublimeLinter-eslint)
+* [SublimeLinter-flow](https://github.com/SublimeLinter/SublimeLinter-flow)
+* [TypeScript](https://github.com/Microsoft/TypeScript-Sublime-Plugin)
+* [Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter)
+* [GitLink](https://github.com/rscherf/GitLink)
+* [Sidebar Enhancements](https://github.com/SideBarEnhancements-org/SideBarEnhancements)
+* [CSSComb](https://github.com/csscomb/sublime-csscomb)
+* [SCSS](https://github.com/MarioRicalde/SCSS.tmbundle) (Sass syntax highlighting)
+* [Git Blame on status bar](https://gist.github.com/rodrigobdz/dbcdcaac6c5af7276c63ec920ba894b0)
+* [Pretty JSON](https://github.com/dzhibas/SublimePrettyJson)
 
 ### Nuclide <img src="https://nuclide.io/static/logo.png" width="30" />
 
@@ -251,10 +254,7 @@ Restart Apache (using aliases on `~/.bash_profile`).
 * Upload images: https://imgur.com/
 * Upload PDF documents: https://scribd.com/
 * Upload slides: https://speakerdeck.com/
-* Project Management and Agile Boards: https://trello.com/
 * Read later: https://getpocket.com/
-* Notes: https://evernote.com/
 * Lists: https://workflowy.com/
-* Dropbox Paper: https://paper.dropbox.com/
 * Live code sharing: https://codeshare.io/
-* Code snippets and online editors: https://codepen.io/, http://v5.jsbin.com/ and https://codesandbox.io/
+* Code snippets and online editors: https://codepen.io/, http://jsbin.com/ and https://codesandbox.io/
