@@ -33,18 +33,21 @@ mkdir ~/workspace
 
 ## Adding your SSH key to the ssh-agent
 
-Add your SSH private key to the ssh-agent and [store your passphrase in the keychain](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#adding-your-ssh-key-to-the-ssh-agent):
+Add your SSH private key to the ssh-agent and store your passphrase in the keychain:
 
 ```
 ssh-add -K ~/.ssh/id_rsa
 ```
 
-[To have MacOS remember your passphrase](https://superuser.com/questions/1127067/macos-keeps-asking-my-ssh-passphrase-since-i-updated-to-sierra/1158050#1158050), create a new file `~/.ssh/config` and enable the `UseKeychain` option:
+To have MacOS remember your passphrase, create a new file `~/.ssh/config` and enable the `UseKeychain` option:
 
 ```
 Host *
     UseKeychain yes
 ```
+
+- [Bitbucket docs](https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html#SetupanSSHkey-ssh2SetupSSHonmacOS/Linux)
+- [GitHub docs](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 
 ## Dev Tools
 
