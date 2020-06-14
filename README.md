@@ -46,15 +46,22 @@ Host *
     UseKeychain yes
 ```
 
-- [Bitbucket docs](https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html#SetupanSSHkey-ssh2SetupSSHonmacOS/Linux)
-- [GitHub docs](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+More info on both the [Bitbucket](https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html#SetupanSSHkey-ssh2SetupSSHonmacOS/Linux) and [GitHub](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) docs.
+
+## Config Files and Git Scripts
+
+Place these dotfiles in your home (`~`) directory:
+
+* [`.zshrc`](./.zshrc)
+* [`.gitconfig`](./.gitconfig)
+* [`.gitignore`](./.gitignore) (ignore OS/IDE-specific files globally)
 
 ## Dev Tools
 
 Must have:
 
-* [Chrome Dev](https://www.google.com/chrome/dev/)
-* [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
+* [Chrome](https://www.google.com/chrome/) or [Chrome Dev](https://www.google.com/chrome/dev/)
+* [Firefox](https://www.mozilla.org/en-US/firefox/new/) and/or [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
 * [Safari Technology Preview](https://developer.apple.com/safari/technology-preview/)
 * [iTerm2](https://www.iterm2.com/) with this [colour preset](https://draculatheme.com/iterm/)
 * [Homebrew](https://brew.sh/), which also installs:
@@ -62,8 +69,8 @@ Must have:
   * [Git](http://git-scm.com/)
 * [oh-my-zsh](https://ohmyz.sh/) (make sure [zsh is installed and updated](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH#zsh), should be shipped with MacOS) and [zsh-syntax-highlighting
 ](https://github.com/zsh-users/zsh-syntax-highlighting)
-* [nvm](https://github.com/creationix/nvm) (install using curl or wget, Brew is not supported)
-* [Yarn](https://yarnpkg.com/) (install using Brew) (make sure to install **after** node/npm are installed using nvm)
+* [nvm](https://github.com/creationix/nvm) (install using `curl` or `wget`, Brew is not supported)
+* [Yarn](https://yarnpkg.com/) (install using Brew) (⚠️ make sure to install **after** node/npm are installed using nvm)
 
 Optional:
 
@@ -93,16 +100,19 @@ React Native:
 * [Dato](https://sindresorhus.com/dato)
 * [Pasta](https://getpasta.com/)
 * [Xnip](http://xnipapp.com/)
-* [TinyNotepad](https://tinyapps.de/)
-* [Dr. Unarchiver](https://www.drcleaner.com/dr-unarchiver/)
-* [f.lux](https://justgetflux.com/)
 
 ## Chrome Extensions
 
-* [React DevTools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
-* [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
+General:
+
 * [Save to Pocket](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj)
 * [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+
+Development tools:
+
+* [React DevTools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+* [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
+* [Apollo DevTools](https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm)
 * [Redirector](https://chrome.google.com/webstore/detail/redirector/ocgpenflpmgnfapjedencafcfakcekcd)
 * [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa)
 
@@ -145,15 +155,6 @@ Install [vscode](https://code.visualstudio.com/) along with the following extens
 * [Oceanic Next (Sublime Babel)](https://marketplace.visualstudio.com/items?itemName=gnhuy91.theme-oceanicnext-sublime)
 
 Also copy the `vscode-settings.json` file to `~/Library/Application Support/Code/User/settings.json`.
-
-## Config Files and Git Scripts
-
-Place these dotfiles in your home (`~`) directory:
-
-* [`.zshrc`](./.zshrc)
-* [`.gitconfig`](./.gitconfig)
-* [`.gitignore`](./.gitignore) (ignore OS/IDE-specific files globally)
-* [`.csscomb.json`](./.csscomb.json)
 
 ## Archive
 
@@ -257,13 +258,3 @@ Restart Apache (using aliases on `~/.bash_profile`).
 * [Oceanic Next](https://labs.voronianski.com/oceanic-next-color-scheme/) (with background colour set to `#282c35`)
 * [Dracula](https://draculatheme.com/)
 * [Gloom](https://github.com/hejrobin/gloom)
-
-## Useful WebApps
-
-* Upload images: https://imgur.com/
-* Upload PDF documents: https://scribd.com/
-* Upload slides: https://speakerdeck.com/
-* Read later: https://getpocket.com/
-* Lists: https://workflowy.com/
-* Live code sharing: https://codeshare.io/
-* Code snippets and online editors: https://codepen.io/, http://jsbin.com/ and https://codesandbox.io/
