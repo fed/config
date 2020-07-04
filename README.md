@@ -156,6 +156,11 @@ Install [vscode](https://code.visualstudio.com/) along with the following extens
 
 Also copy the `vscode-settings.json` file to `~/Library/Application Support/Code/User/settings.json`.
 
+## Fonts
+
+* https://rsms.me/inter/
+* https://mozilla.github.io/Fira/
+
 ## Archive
 
 ### Sublime Text/Merge <img src="https://www.sublimehq.com/images/sublime_text.png" width="35" /> <img src="https://www.sublimehq.com/images/sublime_merge.png" width="35" />
