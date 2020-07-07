@@ -123,6 +123,15 @@ Accessibility tools:
 * [tota11y](https://chrome.google.com/webstore/detail/tota11y-plugin-from-khan/oedofneiplgibimfkccchnimiadcmhpe?hl=en)
 * [headingsMap](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi)
 
+## Firefox Addons
+
+* [DuckDuckGo Privacy Essentials](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/)
+* [HTTPS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
+* [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
+* [Privacy Possum](https://addons.mozilla.org/en-US/firefox/addon/privacy-possum/)
+* [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
+* [Disconnect](https://addons.mozilla.org/en-US/firefox/addon/disconnect/)
+
 ## Global npm packages
 
 ```
