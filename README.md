@@ -71,6 +71,7 @@ Must have:
 ](https://github.com/zsh-users/zsh-syntax-highlighting)
 * [nvm](https://github.com/creationix/nvm) (install using `curl` or `wget`, Brew is not supported)
 * [Yarn](https://yarnpkg.com/) (install using Brew) (⚠️ make sure to install **after** node/npm are installed using nvm)
+* [Sublime Merge](https://www.sublimemerge.com/) (also configure its [CLI](https://forum.sublimetext.com/t/os-x-command-line-for-sublime-merge/39150))
 
 Optional:
 
