@@ -52,7 +52,8 @@ More info on both the [Bitbucket](https://confluence.atlassian.com/bitbucket/set
 * [oh-my-zsh](https://ohmyz.sh/) (make sure [zsh is installed and updated](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH#zsh), should be shipped with MacOS) and [zsh-syntax-highlighting
 ](https://github.com/zsh-users/zsh-syntax-highlighting)
 * [nvm](https://github.com/creationix/nvm) (install using `curl` or `wget`, Brew is not supported)
-* [Yarn](https://yarnpkg.com/) (install using Brew) (⚠️ make sure to install **after** node/npm are installed using nvm)
+* [Yarn](https://yarnpkg.com/) (install using Brew: `brew install yarn --without-node` or without the flag only after node/npm are installed using nvm)
+* [Sublime Text](https://www.sublimetext.com/)
 * [Sublime Merge](https://www.sublimemerge.com/) (also configure its [CLI](https://forum.sublimetext.com/t/os-x-command-line-for-sublime-merge/39150))
 * [Haskell for Mac](http://haskellformac.com/)
 * [Charles Proxy](https://www.charlesproxy.com/)
@@ -76,9 +77,8 @@ More info on both the [Bitbucket](https://confluence.atlassian.com/bitbucket/set
 
 ## Visual Studio Code
 
-Install [vscode](https://code.visualstudio.com/) and enable "Settings Sync" with GitHub.
-
-The **Fira Code** font family can be downloaded from [here](https://github.com/tonsky/FiraCode).
+* Install [vscode](https://code.visualstudio.com/) and enable "Settings Sync" with GitHub.
+* The **Fira Code** font family can be downloaded from [here](https://github.com/tonsky/FiraCode).
 
 ## Workspace
 
