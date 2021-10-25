@@ -74,6 +74,7 @@ More info on both the [Bitbucket](https://confluence.atlassian.com/bitbucket/set
 * [Dato](https://sindresorhus.com/dato)
 * [Pasta](https://getpasta.com/)
 * [Xnip](http://xnipapp.com/)
+* [PDF Combo](https://apps.apple.com/au/app/pdfcombo/id1030461463) to combine and [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351) to compress PDFs
 
 ## Visual Studio Code
 
