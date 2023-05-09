@@ -70,7 +70,10 @@ More info on both the [Bitbucket](https://confluence.atlassian.com/bitbucket/set
 ## Productivity Tools
 
 * [iA Writer](https://ia.net/writer)
-* [Magnet](http://magnet.crowdcafe.com/)
+* [iA Presenter](https://ia.net/presenter/)
+* [Alfred](https://www.alfredapp.com/)
+* [Freedom](https://freedom.to/)
+* [Magnet](http://magnet.crowdcafe.com/) or [Rectangle](https://rectangleapp.com/)
 * [Dato](https://sindresorhus.com/dato)
 * [Pasta](https://getpasta.com/)
 * [Xnip](http://xnipapp.com/)
