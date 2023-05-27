@@ -1,6 +1,6 @@
-# Developer's macOS Fresh Install
+# Developer's macOS Fresh Install 🖥
 
-This document describes how I set up my development environment on a new MacBook 🖥
+This document describes how I set up my development environment on a new MacBook.
 
 ## Finder Preferences
 
@@ -12,7 +12,6 @@ This document describes how I set up my development environment on a new MacBook
 ## Chrome DevTools Preferences
 
 * Settings > Preferences > Network > Disable cache (while DevTools is open)
-* Settings > Preferences > Appearance > Theme: Dark
 
 ## Dotfiles
 
@@ -52,7 +51,8 @@ More info on both the [Bitbucket](https://confluence.atlassian.com/bitbucket/set
 * [oh-my-zsh](https://ohmyz.sh/) (make sure [zsh is installed and updated](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH#zsh), should be shipped with MacOS) and [zsh-syntax-highlighting
 ](https://github.com/zsh-users/zsh-syntax-highlighting)
 * [nvm](https://github.com/creationix/nvm) (install using `curl` or `wget`, Brew is not supported)
-* [Yarn](https://yarnpkg.com/) (install using Brew: `brew install yarn --without-node` or without the flag only after node/npm are installed using nvm)
+* [Yarn](https://yarnpkg.com/) (install using npm: `npm install --global yarn`)
+* [VSCode](https://code.visualstudio.com/) (make sure to enable "Settings Sync" with GitHub)
 * [Sublime Text](https://www.sublimetext.com/)
 * [Sublime Merge](https://www.sublimemerge.com/) (also configure its [CLI](https://forum.sublimetext.com/t/os-x-command-line-for-sublime-merge/39150))
 * [Haskell for Mac](http://haskellformac.com/)
@@ -61,9 +61,7 @@ More info on both the [Bitbucket](https://confluence.atlassian.com/bitbucket/set
 
 ## CLI Tools
 
-* [fd](https://github.com/sharkdp/fd)
 * [bat](https://github.com/sharkdp/bat)
-* [icdiff](https://www.jefftk.com/icdiff)
 * [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
 * [trash-cli](https://github.com/sindresorhus/trash-cli)
 
@@ -75,17 +73,11 @@ More info on both the [Bitbucket](https://confluence.atlassian.com/bitbucket/set
 * [Freedom](https://freedom.to/)
 * [Magnet](http://magnet.crowdcafe.com/) or [Rectangle](https://rectangleapp.com/)
 * [Dato](https://sindresorhus.com/dato)
-* [Pasta](https://getpasta.com/)
+* [Pasta](https://getpasta.com/) (or use Alfred's built-in clipboard)
 * [Xnip](http://xnipapp.com/)
 * [PDF Combo](https://apps.apple.com/au/app/pdfcombo/id1030461463) to combine and [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351) to compress PDFs
 
 ## Visual Studio Code
 
-* Install [vscode](https://code.visualstudio.com/) and enable "Settings Sync" with GitHub.
-* The **Fira Code** font family can be downloaded from [here](https://github.com/tonsky/FiraCode).
-
-## Workspace
-
-```
-mkdir ~/workspace
-```
+* Install the [Fira Code font family](https://github.com/tonsky/FiraCode)
+* Create workspace directory: `mkdir ~/workspace`
