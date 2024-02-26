@@ -52,7 +52,7 @@ More info on both the [Bitbucket](https://confluence.atlassian.com/bitbucket/set
 ](https://github.com/zsh-users/zsh-syntax-highlighting)
 * [nvm](https://github.com/creationix/nvm) (install using `curl` or `wget`, Brew is not supported)
 * [Yarn](https://yarnpkg.com/) (install using npm: `npm install --global yarn`)
-* [VSCode](https://code.visualstudio.com/) (make sure to enable "Settings Sync" with GitHub)
+* [Zed](https://zed.dev)
 * [Sublime Text](https://www.sublimetext.com/)
 * [Sublime Merge](https://www.sublimemerge.com/) (also configure its [CLI](https://forum.sublimetext.com/t/os-x-command-line-for-sublime-merge/39150))
 * [Haskell for Mac](http://haskellformac.com/)
@@ -67,14 +67,14 @@ More info on both the [Bitbucket](https://confluence.atlassian.com/bitbucket/set
 
 ## Productivity Tools
 
-* [iA Writer](https://ia.net/writer)
-* [iA Presenter](https://ia.net/presenter/)
-* [Alfred](https://www.alfredapp.com/)
 * [Freedom](https://freedom.to/)
-* [Magnet](http://magnet.crowdcafe.com/) or [Rectangle](https://rectangleapp.com/)
+* [iA Writer](https://ia.net/writer)
+* [Todoist](https://todoist.com)
 * [Dato](https://sindresorhus.com/dato)
+* [Alfred](https://www.alfredapp.com/) or [Raycast](https://www.raycast.com)
+* [Magnet](http://magnet.crowdcafe.com/) or [Rectangle](https://rectangleapp.com/)
+* [Xnip](http://xnipapp.com/) or [Shottr](https://shottr.cc)
 * [Pasta](https://getpasta.com/) (or use Alfred's built-in clipboard)
-* [Xnip](http://xnipapp.com/)
 * [PDF Combo](https://apps.apple.com/au/app/pdfcombo/id1030461463) to combine and [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351) to compress PDFs
 
 ## Visual Studio Code
