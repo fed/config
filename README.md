@@ -1,4 +1,4 @@
-# Developer's macOS Fresh Install 🖥
+# Frontend Mac Setup 🖥
 
 This document describes how I set up my development environment on a new MacBook.
 
@@ -45,25 +45,14 @@ More info on both the [Bitbucket](https://confluence.atlassian.com/bitbucket/set
 ## Dev Tools
 
 * [iTerm2](https://www.iterm2.com/) with this [colour preset](https://draculatheme.com/iterm/)
-* [Homebrew](https://brew.sh/), which also installs:
-  * [Command Line Tools](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
-  * [Git](http://git-scm.com/)
-* [oh-my-zsh](https://ohmyz.sh/) (make sure [zsh is installed and updated](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH#zsh), should be shipped with MacOS) and [zsh-syntax-highlighting
+* [Homebrew](https://brew.sh/), which also installs [Command Line Tools](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/) and [Git](http://git-scm.com/)
+* [pure](https://github.com/sindresorhus/pure) and [zsh-syntax-highlighting
 ](https://github.com/zsh-users/zsh-syntax-highlighting)
 * [nvm](https://github.com/creationix/nvm) (install using `curl` or `wget`, Brew is not supported)
 * [Yarn](https://yarnpkg.com/) (install using npm: `npm install --global yarn`)
 * [Zed](https://zed.dev)
 * [Sublime Text](https://www.sublimetext.com/)
 * [Sublime Merge](https://www.sublimemerge.com/) (also configure its [CLI](https://forum.sublimetext.com/t/os-x-command-line-for-sublime-merge/39150))
-* [Haskell for Mac](http://haskellformac.com/)
-* [Charles Proxy](https://www.charlesproxy.com/)
-* [Postman](https://www.getpostman.com/)
-
-## CLI Tools
-
-* [bat](https://github.com/sharkdp/bat)
-* [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
-* [trash-cli](https://github.com/sindresorhus/trash-cli)
 
 ## Productivity Tools
 
@@ -74,10 +63,16 @@ More info on both the [Bitbucket](https://confluence.atlassian.com/bitbucket/set
 * [Alfred](https://www.alfredapp.com/) or [Raycast](https://www.raycast.com)
 * [Magnet](http://magnet.crowdcafe.com/) or [Rectangle](https://rectangleapp.com/)
 * [Xnip](http://xnipapp.com/) or [Shottr](https://shottr.cc)
-* [Pasta](https://getpasta.com/) (or use Alfred's built-in clipboard)
+* [Pasta](https://getpasta.com/) (or use Alfred/Raycast's built-in clipboard)
 * [PDF Combo](https://apps.apple.com/au/app/pdfcombo/id1030461463) to combine and [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351) to compress PDFs
 
-## Visual Studio Code
+## Other
 
-* Install the [Fira Code font family](https://github.com/tonsky/FiraCode)
 * Create workspace directory: `mkdir ~/workspace`
+* Install the [Fira Code font family](https://github.com/tonsky/FiraCode)
+* [Haskell for Mac](http://haskellformac.com/)
+* [Charles Proxy](https://www.charlesproxy.com/)
+* [Postman](https://www.getpostman.com/)
+* [bat](https://github.com/sharkdp/bat)
+* [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
+* [trash-cli](https://github.com/sindresorhus/trash-cli)
