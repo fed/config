@@ -1,4 +1,5 @@
 # github.com/sindresorhus/pure
+# this needs to come first
 fpath+=("$(brew --prefix)/share/zsh/site-functions")
 
 autoload -U promptinit; promptinit
@@ -16,7 +17,15 @@ export NVM_DIR="$HOME/.nvm"
 alias ll='ls -lhFa'
 alias ws='cd ~/workspace'
 alias awake='pmset noidle'
+alias beep='echo -e "\a"'
 alias brewski='brew update && brew upgrade && brew cleanup; brew doctor'
 alias vscode='open -a "Visual Studio Code"'
 alias sublime='open -a "Sublime Text"'
 alias merge='open -a "Sublime Merge"'
+alias gp='f(){ git pull origin $(git rev-parse --abbrev-ref HEAD);};f' # git pull
+alias gf='f(){ git fetch $1 --prune --prune-tags;};f' # git fetch
+
+# replace cat with bat
+function cat () {
+  command bat "$@"
+}

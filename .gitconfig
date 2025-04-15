@@ -5,44 +5,19 @@
   default = current
 [alias]
   co = checkout
-  br = branch
-  st = status
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(green)%d%Creset %s %Cgreen(%cr) %C(blue)<%an>%Creset' --abbrev-commit --date=relative
-  wc = !git whatchanged
-  wcp = !git whatchanged -p
-  d = diff
-  dc = diff --cached
-  lol = log --graph --decorate --pretty --oneline --abbrev-commit
-  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
-  delete-merged-branches = "!f() { git checkout --quiet develop && git branch --merged | grep --invert-match '\\*' | xargs -n 1 git branch --delete; git checkout --quiet @{-1}; }; f"
-  logtree = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 [core]
   excludesfile = ~/.gitignore
   whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
-  pager = less -x4
+  pager = diff-so-fancy | less --tabs=4 -RFX
   autocrlf = false
   eol = lf
   longpaths = true
 [color]
   ui = true
-[color "branch"]
-  current = green
-  local = blue
-  remote = red
-[color "diff"]
-  meta = yellow
-  frag = magenta
-  old = red bold
-  new = green
-  whitespace = red reverse
-[color "status"]
-  added = green
-  changed = yellow
-  untracked = red
 [credential]
-  # Windows
-  # helper = wincred
-  # Mac
   helper = cache --timeout=86400
 [help]
   autocorrect = 1
+[commit]
+  template = /Users/fknussel/.stCommitMsg
