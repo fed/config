@@ -1,5 +1,4 @@
-# github.com/sindresorhus/pure
-# this needs to come first
+# pure - this needs to come first
 fpath+=("$(brew --prefix)/share/zsh/site-functions")
 
 autoload -U promptinit; promptinit
