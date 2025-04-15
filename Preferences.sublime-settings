@@ -1,44 +1,16 @@
 {
-	"auto_format_on_save": false,
-	"always_show_minimap_viewport": true,
-  "bold_folder_labels": true,
-	"caret_extra_bottom": 3,
-	"caret_extra_top": 3,
-	"caret_extra_width": 2,
-	"color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
-	"font_face": "Fira Code Retina",
-	"font_options":
-	[
-		"subpixel_antialias"
-	],
-	"folder_exclude_patterns":
-  [
-    ".svn",
-    ".git",
-    ".hg",
-    "CVS",
-    "node_modules",
-    "bower",
-    "coverage",
-    "test-results"
-  ],
-	"font_size": 16,
-	"highlight_line": true,
-	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"line_padding_bottom": 3,
-	"line_padding_top": 3,
-	"overlay_scroll_bars": "enabled",
-	"rulers":
-	[
-		100
-	],
-	"tab_size": 2,
-	"theme": "Oceanic Next.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
+  "rulers": [100, 120],
+  "font_size": 16,
+  "line_padding_top": 4,
+  "line_padding_bottom": 4,
+  "block_caret": true,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "word_wrap": true,
+  "ignored_packages": ["Vintage"],
+  "index_files": true,
+  "color_scheme": "Mariana.sublime-color-scheme",
+  "theme": "auto",
+  "folder_exclude_patterns": ["node_modules"],
+  "bold_folder_labels": true
 }

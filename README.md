@@ -29,7 +29,7 @@ First [generate a new SSH key](https://docs.github.com/en/authentication/connect
 ## Dev Tools
 
 - [iTerm2](https://www.iterm2.com/)
-- [Homebrew](https://brew.sh/) (which also installs [Command Line Tools](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/) and [Git](http://git-scm.com/))
+- [Homebrew](https://brew.sh/) (which also installs the [Command Line Tools](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/) and [Git](http://git-scm.com/))
 - [nvm](https://github.com/creationix/nvm)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Sublime Text](https://www.sublimetext.com/)

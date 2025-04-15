@@ -1,7 +1,17 @@
 [
-    // Toggle the Sidebar
-    { "keys": ["super+\\"], "command": "toggle_side_bar" },
+  // Toggle the sidebar,
+  { "keys": ["super+b"], "command": "toggle_side_bar" },
 
-    // BONUS: Reveal current file on the sidebar tree
-    { "keys": ["super+shift+\\"], "command": "reveal_in_side_bar" },
+  // Reveal current file in the sidebar tree
+  { "keys": ["super+shift+e"], "command": "reveal_in_side_bar" },
+
+  // Copy current filename to clipboard
+  { "keys": ["super+option+e"], "command": "filename_to_clipboard" },
+
+  // Toggle word wrap
+  {
+    "keys": ["super+shift+w"],
+    "command": "toggle_setting",
+    "args": { "setting": "word_wrap" }
+  }
 ]
