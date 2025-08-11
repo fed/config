@@ -4,6 +4,8 @@ This document describes how I set up my development environment on a new MacBook
 
 ## Finder Preferences
 
+See [screenshots](./settings) in the `settings` folder.
+
 - General > New Finder windows show > Downloads folder
 - Sidebar > Show these items in the sidebar > Airdrop, Applications, Downloads & home directory
 - Advanced > Show all filename extensions
@@ -18,7 +20,7 @@ This document describes how I set up my development environment on a new MacBook
 
 ## SSH Keys
 
-First [generate a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) and then [add it to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
+First [generate a new SSH key and add it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent), and then [add it to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
 
 ## Browsers
 
@@ -37,14 +39,11 @@ First [generate a new SSH key](https://docs.github.com/en/authentication/connect
 
 ## Productivity Tools
 
-- [Todoist](https://todoist.com)
 - [iA Writer](https://ia.net/writer)
 - [Raycast](https://www.raycast.com)
 - [Freedom](https://freedom.to/)
 - [Dato](https://sindresorhus.com/dato)
 - [Magnet](http://magnet.crowdcafe.com/) or [Rectangle](https://rectangleapp.com/)
-- [Xnip](http://xnipapp.com/) or [Shottr](https://shottr.cc)
-- [PDF Combo](https://apps.apple.com/au/app/pdfcombo/id1030461463) to combine and [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351) to compress PDFs
 
 ## Brew packages
 
@@ -68,7 +67,9 @@ brew install pure zsh-syntax-highlighting diff-so-fancy bat macos-trash
 ## Other
 
 - Create workspace directory: `mkdir ~/workspace`
-- Chrome cache: `Settings > Preferences > Network > Disable cache (while DevTools is open)`
+- Browser cache: `Settings > Preferences > Network > Disable cache (while DevTools is open)`
 - [Haskell for Mac](http://haskellformac.com/)
 - [Charles Proxy](https://www.charlesproxy.com/)
 - [Postman](https://www.getpostman.com/)
+- [Xnip](http://xnipapp.com/) or [Shottr](https://shottr.cc)
+- [PDF Combo](https://apps.apple.com/au/app/pdfcombo/id1030461463) to combine and [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351) to compress PDFs
