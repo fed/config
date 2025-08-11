@@ -4,13 +4,13 @@ This document describes how I set up my development environment on a new MacBook
 
 ## Finder Preferences
 
-See [screenshots](./settings) in the `settings` folder.
-
 - General > New Finder windows show > Downloads folder
 - Sidebar > Show these items in the sidebar > Airdrop, Applications, Downloads & home directory
 - Advanced > Show all filename extensions
-- Advandec > Keep folders on top > In windows when sorting by name
+- Advanced > Keep folders on top > In windows when sorting by name
 - Show View Options > Group By: Name & Sort By: Name
+
+See [screenshots](./settings) in the `settings` folder for more configurations.
 
 ## Dotfiles
 
