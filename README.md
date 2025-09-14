@@ -64,6 +64,13 @@ brew install pure zsh-syntax-highlighting diff-so-fancy bat macos-trash
 - [iterm2-snazzy](https://github.com/sindresorhus/iterm2-snazzy) and select colour preset from Settings > Profiles > Colors
 - [zsh-nvm-auto-switch](https://github.com/aspirewit/zsh-nvm-auto-switch)
 
+## IDE/Terminal themes and colour schemes
+
+- [Gloom](https://marketplace.visualstudio.com/items?itemName=adamgirton.gloom)
+- [Atom One Light](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onelight)
+- [Dracula](https://draculatheme.com/)
+- [GitHub](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
+
 ## Other
 
 - Create workspace directory: `mkdir ~/workspace`
