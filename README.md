@@ -36,6 +36,9 @@ First [generate a new SSH key and add it to the ssh-agent](https://docs.github.c
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Sublime Text](https://www.sublimetext.com/)
 - [Sublime Merge](https://www.sublimemerge.com/)
+- [Haskell for Mac](http://haskellformac.com/)
+- [Charles Proxy](https://www.charlesproxy.com/)
+- [RapidAPI](https://paw.cloud/)
 
 ## Productivity Tools
 
@@ -44,6 +47,8 @@ First [generate a new SSH key and add it to the ssh-agent](https://docs.github.c
 - [Freedom](https://freedom.to/)
 - [Dato](https://sindresorhus.com/dato)
 - [Magnet](http://magnet.crowdcafe.com/) or [Rectangle](https://rectangleapp.com/)
+- [PDF Combo](https://apps.apple.com/au/app/pdfcombo/id1030461463) to combine and [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351) to compress PDFs
+- [Xnip](http://xnipapp.com/) or [Shottr](https://shottr.cc)
 
 ## Brew packages
 
@@ -64,19 +69,13 @@ brew install pure zsh-syntax-highlighting diff-so-fancy bat macos-trash
 - [iterm2-snazzy](https://github.com/sindresorhus/iterm2-snazzy) and select colour preset from Settings > Profiles > Colors
 - [zsh-nvm-auto-switch](https://github.com/aspirewit/zsh-nvm-auto-switch)
 
-## IDE/Terminal themes and colour schemes
+## IDE/Terminal themes, colour schemes and font families
 
 - [Gloom](https://marketplace.visualstudio.com/items?itemName=adamgirton.gloom)
 - [Atom One Light](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onelight)
-- [Dracula](https://draculatheme.com/)
-- [GitHub](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
+- [Fira Code](https://github.com/tonsky/FiraCode)
 
 ## Other
 
 - Create workspace directory: `mkdir ~/workspace`
 - Browser cache: `Settings > Preferences > Network > Disable cache (while DevTools is open)`
-- [Haskell for Mac](http://haskellformac.com/)
-- [Charles Proxy](https://www.charlesproxy.com/)
-- [Postman](https://www.getpostman.com/)
-- [Xnip](http://xnipapp.com/) or [Shottr](https://shottr.cc)
-- [PDF Combo](https://apps.apple.com/au/app/pdfcombo/id1030461463) to combine and [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351) to compress PDFs
