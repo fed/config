@@ -1,0 +1,17 @@
+# theme = Dracula
+theme = Snazzy
+font-size = 18
+
+window-padding-y = 10
+window-padding-x = 10
+window-padding-balance = true
+
+macos-option-as-alt = left
+macos-titlebar-style = tabs
+
+keybind = shift+enter=text:\n
+
+working-directory = home
+window-inherit-working-directory = false
+tab-inherit-working-directory = false
+split-inherit-working-directory = true
