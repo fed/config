@@ -30,7 +30,7 @@ First [generate a new SSH key and add it to the ssh-agent](https://docs.github.c
 
 ## Dev Tools
 
-- [iTerm2](https://www.iterm2.com/)
+- [Ghostty](https://ghostty.org/)
 - [Homebrew](https://brew.sh/) (which also installs the [Command Line Tools](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/) and [Git](http://git-scm.com/))
 - [nvm](https://github.com/creationix/nvm)
 - [Visual Studio Code](https://code.visualstudio.com/)
@@ -38,7 +38,6 @@ First [generate a new SSH key and add it to the ssh-agent](https://docs.github.c
 - [Sublime Merge](https://www.sublimemerge.com/)
 - [Haskell for Mac](http://haskellformac.com/)
 - [Charles Proxy](https://www.charlesproxy.com/)
-- [RapidAPI](https://paw.cloud/)
 
 ## Productivity Tools
 
@@ -62,11 +61,11 @@ brew install pure zsh-syntax-highlighting diff-so-fancy bat macos-trash
 - [bat](https://github.com/sharkdp/bat)
 - [macos-trash](https://github.com/sindresorhus/macos-trash)
 
-## Configuring iTerm
+## Configuring Ghostty
 
+- [config.ghostty](./config.ghostty)
 - [pure](https://github.com/sindresorhus/pure)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
-- [iterm2-snazzy](https://github.com/sindresorhus/iterm2-snazzy) and select colour preset from Settings > Profiles > Colors
 - [zsh-nvm-auto-switch](https://github.com/aspirewit/zsh-nvm-auto-switch)
 
 ## IDE/Terminal themes, colour schemes and font families
