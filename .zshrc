@@ -1,3 +1,15 @@
+# ~/.zshrc
+# Runs for every interactive shell.
+# This is executed for each new tab/window.
+#
+# Use this file for:
+# - aliases
+# - prompt/theme (e.g. pure)
+# - keybindings
+# - plugins and completions
+#
+# Avoid heavy environment setup here (like PATH) since it runs often.
+
 # pure - this needs to come first
 fpath+=("$(brew --prefix)/share/zsh/site-functions")
 
@@ -26,17 +38,3 @@ alias merge='open -a "Sublime Merge"'
 function cat () {
   command bat "$@"
 }
-
-# Auto-run `nvm use` when entering a directory with .nvmrc
-autoload -U add-zsh-hook
-
-load-nvmrc() {
-  if [ -f .nvmrc ]; then
-    nvm use
-  fi
-}
-
-add-zsh-hook chpwd load-nvmrc
-
-# Also run when starting a new shell
-load-nvmrc
