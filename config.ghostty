@@ -1,4 +1,3 @@
-# theme = Dracula
 theme = Snazzy
 font-size = 18
 
@@ -11,7 +10,7 @@ macos-titlebar-style = tabs
 
 keybind = shift+enter=text:\n
 
-working-directory = home
+working-directory = ~/workspace
 window-inherit-working-directory = false
 tab-inherit-working-directory = false
 split-inherit-working-directory = true
