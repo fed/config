@@ -5,7 +5,7 @@ autoload -U promptinit; promptinit
 prompt pure
 
 # zsh-syntax-highlighting
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
@@ -15,16 +15,28 @@ export NVM_DIR="$HOME/.nvm"
 # aliases
 alias ll='ls -lhFa'
 alias ws='cd ~/workspace'
-alias awake='pmset noidle'
+alias awake='caffeinate -u -t 3600'
 alias beep='echo -e "\a"'
 alias brewski='brew update && brew upgrade && brew cleanup; brew doctor'
 alias vscode='open -a "Visual Studio Code"'
-alias sublime='open -a "Sublime Text"'
+alias sublime='subl'
 alias merge='open -a "Sublime Merge"'
-alias gp='f(){ git pull origin $(git rev-parse --abbrev-ref HEAD);};f' # git pull
-alias gf='f(){ git fetch $1 --prune --prune-tags;};f' # git fetch
 
 # replace cat with bat
 function cat () {
   command bat "$@"
 }
+
+# Auto-run `nvm use` when entering a directory with .nvmrc
+autoload -U add-zsh-hook
+
+load-nvmrc() {
+  if [ -f .nvmrc ]; then
+    nvm use
+  fi
+}
+
+add-zsh-hook chpwd load-nvmrc
+
+# Also run when starting a new shell
+load-nvmrc
