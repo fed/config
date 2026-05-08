@@ -15,6 +15,7 @@ See [screenshots](./settings) in the `settings` folder for more configurations.
 ## Dotfiles
 
 - [`~/.zshrc`](./.zshrc)
+- [`~/.zprofile`](./.zprofile)
 - [`~/.gitconfig`](./.gitconfig)
 - [`~/.gitignore`](./.gitignore) (ignore OS/IDE-specific files globally)
 
@@ -71,7 +72,6 @@ brew install pure zsh-syntax-highlighting diff-so-fancy bat macos-trash
 ## IDE/Terminal themes, colour schemes and font families
 
 - [Gloom](https://marketplace.visualstudio.com/items?itemName=adamgirton.gloom)
-- [Atom One Light](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onelight)
 - [Fira Code](https://github.com/tonsky/FiraCode)
 
 ## Other
