@@ -1,0 +1,7 @@
+// Settings in here override those in "LSP-cspell/LSP-cspell.sublime-settings"
+
+{
+    "settings": {
+        "cSpell.language": "en-GB",
+    },
+}

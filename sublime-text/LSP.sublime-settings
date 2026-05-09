@@ -1,0 +1,19 @@
+// Settings in here override those in "LSP/LSP.sublime-settings"
+{
+  "lsp_format_on_save": true,
+  "clients": {
+    "LSP-biome": {
+      "enabled": true,
+      "initializationOptions": {
+        "requireConfiguration": true
+      }
+    },
+    "LSP-typescript": {
+      "enabled": true,
+      "settings": {
+        "typescript.format.enable": false,
+        "javascript.format.enable": false
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "folder_exclude_patterns": [
+        "node_modules",
+        ".turbo",
+        "dist",
+        ".cache",
+        ".next",
+        "coverage",
+        "storybook-static",
+        ".parcel-cache"
+      ],
+      "file_exclude_patterns": [
+        "*.lock",
+        "*.tsbuildinfo"
+      ],
+    }
+  ],
+  "settings": {
+    "word_wrap": true,
+    "wrap_width": 120,
+    "LSP": {
+      "LSP-cspell": {
+        "settings": {
+          "cSpell.dictionaryDefinitions": [
+            {
+              "name": "abc-vocabulary",
+              "path": "./tools/vale/styles/config/vocabularies/ABC/accept.txt",
+              "addWords": true
+            },
+            {
+              "name": "technology-vocabulary",
+              "path": "./tools/vale/styles/config/vocabularies/Technology/accept.txt",
+              "addWords": true
+            }
+          ],
+          "cSpell.dictionaries": ["abc-vocabulary", "technology-vocabulary"]
+        }
+      }
+    },
+  },
+}

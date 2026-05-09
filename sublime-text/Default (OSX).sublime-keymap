@@ -1,0 +1,20 @@
+[
+  // Toggle the sidebar,
+  { "keys": ["super+b"], "command": "toggle_side_bar" },
+
+  // Reveal current file in the sidebar tree
+  { "keys": ["super+shift+e"], "command": "reveal_in_side_bar" },
+
+  // Toggle word wrap
+  {
+    "keys": ["super+shift+w"],
+    "command": "toggle_setting",
+    "args": { "setting": "word_wrap" }
+  },
+
+  // Copilot chat context (file number and line)
+  {
+    "keys": ["super+alt+i"],
+    "command": "copilot_chat_context"
+  }
+]

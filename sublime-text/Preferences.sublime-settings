@@ -1,0 +1,22 @@
+{
+	"font_size": 20,
+	"index_files": false,
+	"line_padding_top": 4,
+	"line_padding_bottom": 4,
+	"word_wrap": true,
+	"highlight_line": true,
+	"block_caret": true,
+	"caret_style": "smooth",
+	"scroll_past_end": 0.5,
+	"show_definitions": false,
+	"mini_diff": true,
+	"highlight_modified_tabs": true,
+	"indent_guide_options": ["draw_normal", "draw_active"],
+	"rulers": [100, 120],
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"theme": "Default.sublime-theme",
+	"color_scheme": "Mariana.sublime-color-scheme",
+}
